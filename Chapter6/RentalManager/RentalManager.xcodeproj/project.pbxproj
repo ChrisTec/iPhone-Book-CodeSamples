@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BDFB55211BC502300B76AF5 /* RentalPropertyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDFB55111BC502300B76AF5 /* RentalPropertyCell.m */; };
 		1D3623260D0F684500981E51 /* RentalManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RentalManagerAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BDFB55011BC502300B76AF5 /* RentalPropertyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalPropertyCell.h; sourceTree = "<group>"; };
+		0BDFB55111BC502300B76AF5 /* RentalPropertyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalPropertyCell.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* RentalManagerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalManagerAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* RentalManagerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalManagerAppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				1D3623250D0F684500981E51 /* RentalManagerAppDelegate.m */,
 				83248C8111536DFB0047DE96 /* CTRentalProperty.h */,
 				83248C8211536DFB0047DE96 /* CTRentalProperty.m */,
+				0BDFB55011BC502300B76AF5 /* RentalPropertyCell.h */,
+				0BDFB55111BC502300B76AF5 /* RentalPropertyCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				1D3623260D0F684500981E51 /* RentalManagerAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				83248C8311536DFB0047DE96 /* CTRentalProperty.m in Sources */,
+				0BDFB55211BC502300B76AF5 /* RentalPropertyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

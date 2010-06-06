@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "CTRentalProperty.h"
+#import "RentalPropertyCell.h"
 
 @implementation RootViewController
 
@@ -47,34 +48,39 @@
 
 	static NSString *CellIdentifier = @"Cell";
 
-	UITableViewCell *cell = [tableView
+	RentalPropertyCell *cell = (RentalPropertyCell*)[tableView
 							 dequeueReusableCellWithIdentifier:CellIdentifier];
 
+	CTRentalProperty * property = [properties objectAtIndex:indexPath.row];
+	
 	if (cell == nil) {
-		cell = [[[UITableViewCell alloc]
-				 initWithStyle:UITableViewCellStyleSubtitle
-				 reuseIdentifier:CellIdentifier] autorelease];
+		cell = [[[RentalPropertyCell alloc] initWithStyle:UITableViewStylePlain reuseIdentifier:CellIdentifier] autorelease];
 	}
 
 	// Configure the cell.
-	CTRentalProperty * property = [properties objectAtIndex:indexPath.row];
+	[cell setProperty:property];
 	
-	int indexOfSemicolon = [property.address rangeOfString:@","].location;
-	NSString * address = [property.address
-						  substringToIndex:indexOfSemicolon];
-	NSString * city = [property.address
-					   substringFromIndex:indexOfSemicolon + 2];
-
-	cell.textLabel.text = address;
-
-	NSString * imageName = [cityMappings objectForKey:city];
-	cell.imageView.image = [UIImage imageNamed:imageName];
-	
-	cell.detailTextLabel.text =
-    [NSString stringWithFormat:@"Rents for $%0.2f per week",
-	 property.rentalPrice];       
+//	int indexOfSemicolon = [property.address rangeOfString:@","].location;
+//	NSString * address = [property.address
+//						  substringToIndex:indexOfSemicolon];
+//	NSString * city = [property.address
+//					   substringFromIndex:indexOfSemicolon + 2];
+//
+//	cell.textLabel.text = address;
+//
+//	NSString * imageName = [cityMappings objectForKey:city];
+//	cell.imageView.image = [UIImage imageNamed:imageName];
+//	
+//	cell.detailTextLabel.text =
+//    [NSString stringWithFormat:@"Rents for $%0.2f per week",
+//	 property.rentalPrice];    
 	
 	return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+	return 80;
 }
 
 - (void)dealloc {
