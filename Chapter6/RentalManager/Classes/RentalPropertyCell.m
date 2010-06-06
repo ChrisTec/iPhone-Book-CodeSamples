@@ -34,13 +34,13 @@
 		self.textLabel.text = prop.address;
 		[self.textLabel setFont:[UIFont systemFontOfSize:12]];
 		
-		priceLabel = [[UILabel alloc] initWithFrame:CGRectMake(25, 60, 100, 30)];
-		priceLabel.text = [NSString stringWithFormat:@"$%0.2f",property.rentalPrice];
+		priceLabel = [[UILabel alloc] initWithFrame:CGRectMake(25, 60, 250, 30)];
+		priceLabel.text = [property.leaseDetails description];
 		[priceLabel setTextColor:[UIColor redColor]];
 		[priceLabel setBackgroundColor:[UIColor clearColor]];
 		[self addSubview:priceLabel];
 		
-		propertyTypeLabel = [[UILabel alloc] initWithFrame:CGRectMake(225, 60, 100, 30)];
+		propertyTypeLabel = [[UILabel alloc] initWithFrame:CGRectMake(225, 0, 100, 30)];
 		
 		if(property.propertyType == TownHouse) {
 			propertyTypeLabel.text = @"Town House";
@@ -77,13 +77,13 @@
 	self.textLabel.text = prop.address;
 	[self.textLabel setFont:[UIFont systemFontOfSize:13]];
 	
-	priceLabel = [[UILabel alloc] initWithFrame:CGRectMake(120, 50, 100, 30)];
-	priceLabel.text = [NSString stringWithFormat:@"$%0.2f",property.rentalPrice];
+	priceLabel = [[UILabel alloc] initWithFrame:CGRectMake(120, 50, 250, 30)];
+	priceLabel.text = [property.leaseDetails description];
 	[priceLabel setTextColor:[UIColor redColor]];
 	[priceLabel setBackgroundColor:[UIColor clearColor]];
 	[self addSubview:priceLabel];
 	
-	propertyTypeLabel = [[UILabel alloc] initWithFrame:CGRectMake(200, 50, 100, 30)];
+	propertyTypeLabel = [[UILabel alloc] initWithFrame:CGRectMake(200, 0, 100, 30)];
 	
 	if(property.propertyType == TownHouse) {
 		propertyTypeLabel.text = @"Town House";

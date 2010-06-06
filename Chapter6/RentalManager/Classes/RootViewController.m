@@ -20,19 +20,19 @@
 
 	properties = [[NSArray alloc] initWithObjects:                          
 				  [CTRentalProperty rentalPropertyOfType:TownHouse                      
-											  rentingFor:420.0f                         
+											   withLease:[CTLease periodicLease:420.0f]                         
 											   atAddress:@"13 Waverly Crescent, Sumner"],       
 				  [CTRentalProperty rentalPropertyOfType:Unit                           
-											  rentingFor:365.0f                         
+											   withLease:[CTLease periodicLease:365.0f]                        
 											   atAddress:@"74 Roberson Lane, Christchurch"],          
 				  [CTRentalProperty rentalPropertyOfType:Unit                           
-											  rentingFor:275.9f                         
+											   withLease:[CTLease periodicLease:275.9f]                         
 											   atAddress:@"17 Kipling Street, Riccarton"],         
 				  [CTRentalProperty rentalPropertyOfType:Mansion                        
-											  rentingFor:1500.0f                        
+											   withLease:[CTLease fixedTermLeaseWithPrice:78000.0f ForWeeks:52]                        
 											   atAddress:@"4 Everglade Ridge, Sumner"],         
 				  [CTRentalProperty rentalPropertyOfType:Mansion                        
-											  rentingFor:2000.0f                        
+											   withLease:[CTLease fixedTermLeaseWithPrice:40000.0f ForWeeks:20] 
 											   atAddress:@"19 Islington Road, Clifton"],         
 				  nil];
 }

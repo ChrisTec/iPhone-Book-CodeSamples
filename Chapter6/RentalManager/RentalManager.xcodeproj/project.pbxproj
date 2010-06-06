@@ -21,6 +21,9 @@
 		83290B4B115369110098082A /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = 83290B48115369110098082A /* mountain.png */; };
 		83290B4C115369110098082A /* sea.png in Resources */ = {isa = PBXBuildFile; fileRef = 83290B49115369110098082A /* sea.png */; };
 		83290BEB11536CCB0098082A /* CityMappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83290BEA11536CCB0098082A /* CityMappings.plist */; };
+		83DCEBEB11BC57D400332800 /* CTFixedTermLease.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DCEBE611BC57D400332800 /* CTFixedTermLease.m */; };
+		83DCEBEC11BC57D400332800 /* CTLease.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DCEBE811BC57D400332800 /* CTLease.m */; };
+		83DCEBED11BC57D400332800 /* CTPeriodicLease.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DCEBEA11BC57D400332800 /* CTPeriodicLease.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,12 @@
 		83290B48115369110098082A /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
 		83290B49115369110098082A /* sea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea.png; sourceTree = "<group>"; };
 		83290BEA11536CCB0098082A /* CityMappings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityMappings.plist; sourceTree = "<group>"; };
+		83DCEBE511BC57D400332800 /* CTFixedTermLease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFixedTermLease.h; sourceTree = "<group>"; };
+		83DCEBE611BC57D400332800 /* CTFixedTermLease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFixedTermLease.m; sourceTree = "<group>"; };
+		83DCEBE711BC57D400332800 /* CTLease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLease.h; sourceTree = "<group>"; };
+		83DCEBE811BC57D400332800 /* CTLease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLease.m; sourceTree = "<group>"; };
+		83DCEBE911BC57D400332800 /* CTPeriodicLease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPeriodicLease.h; sourceTree = "<group>"; };
+		83DCEBEA11BC57D400332800 /* CTPeriodicLease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPeriodicLease.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* RentalManager-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RentalManager-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +73,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				83DCEBE111BC576200332800 /* Lease Types */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* RentalManagerAppDelegate.h */,
@@ -127,6 +137,19 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83DCEBE111BC576200332800 /* Lease Types */ = {
+			isa = PBXGroup;
+			children = (
+				83DCEBE711BC57D400332800 /* CTLease.h */,
+				83DCEBE811BC57D400332800 /* CTLease.m */,
+				83DCEBE511BC57D400332800 /* CTFixedTermLease.h */,
+				83DCEBE611BC57D400332800 /* CTFixedTermLease.m */,
+				83DCEBE911BC57D400332800 /* CTPeriodicLease.h */,
+				83DCEBEA11BC57D400332800 /* CTPeriodicLease.m */,
+			);
+			name = "Lease Types";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +222,9 @@
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				83248C8311536DFB0047DE96 /* CTRentalProperty.m in Sources */,
 				0BDFB55211BC502300B76AF5 /* RentalPropertyCell.m in Sources */,
+				83DCEBEB11BC57D400332800 /* CTFixedTermLease.m in Sources */,
+				83DCEBEC11BC57D400332800 /* CTLease.m in Sources */,
+				83DCEBED11BC57D400332800 /* CTPeriodicLease.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

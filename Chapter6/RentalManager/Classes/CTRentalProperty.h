@@ -7,29 +7,27 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CTLease.h"
 
 typedef enum PropertyType {
 	TownHouse, Unit, Mansion
 } PropertyType;
 
 @interface CTRentalProperty : NSObject {
-	float rentalPrice;
+	CTLease *leaseDetails;
 	NSString *address;
 	PropertyType propertyType;
 }
 
 + (id) rentalPropertyOfType:(PropertyType)newPropertyType
-                 rentingFor:(float)newRentalPrice
+                  withLease:(CTLease *)newLease
                   atAddress:(NSString *)newAddress;
 
 - (id) initWithAddress:(NSString *)newAddress
-           rentalPrice:(float)newRentalPrice
+             withLease:(CTLease *)newLease
                andType:(PropertyType)newPropertyType;
 
-- (void) increaseRentalByPercent:(float)percent withMaximum:(float)max;
-- (void) decreaseRentalByPercent:(float)percent withMinimum:(float)min;
-
-@property(nonatomic) float rentalPrice;
+@property(nonatomic, retain) CTLease * leaseDetails;
 @property(nonatomic, copy) NSString * address;
 @property(nonatomic) PropertyType propertyType;
 
