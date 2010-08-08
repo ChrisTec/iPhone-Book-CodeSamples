@@ -1,0 +1,244 @@
+TPocketTasks
+v7
+r0
+t302687744.100136
+cCheck dependencies
+cProcessInfoPlistFile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/Info.plist PocketTasks-Info.plist
+cCompileXIB /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/MainWindow.xib
+cProcessPCH /var/folders/zl/zl1uUcmk2RayXE+F75PZVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PocketTasks_Prefix-adotapwjrtzgclbxolnyiakrpaqc/PocketTasks_Prefix.pch.gch PocketTasks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks.momd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks.xcdatamodeld
+cCompileC build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/main.o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/PocketTasksAppDelegate.o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks normal i386
+cGenerateDSYMFile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app.dSYM /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks
+cTouch /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C5848F40000000000000132
+t1280854260
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFDFEB400000000001CFA90
+t1274937012
+s1899152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFDFEA8000000000000046B
+t1274937000
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.h
+c000000004C5A6E1A0000000000000361
+t1280994842
+s865
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.m
+c000000004C5A6E1A0000000000001D95
+t1280994842
+s7573
+i"PocketTasksAppDelegate.h"
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/MainWindow.xib
+c000000004C5A6E1A00000000000021DD
+t1280994842
+s8669
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks.xcdatamodeld
+c000000004C5A6E1A0000000000000088
+t1280994842
+s136
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks_Prefix.pch
+c000000004C5A6E1A000000000000016A
+t1280994842
+s362
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app
+t1280994944
+s238
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app.dSYM
+t1280994943
+s102
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/Info.plist
+t1280994931
+s607
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/MainWindow.nib
+t1280994935
+s988
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PkgInfo
+t1280994931
+s8
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks
+t1280994943
+s17656
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks.momd
+t1280994943
+s136
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/PocketTasks.LinkFileList
+c000000004C5A6E73000000000000014E
+t1280994931
+s334
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/PocketTasksAppDelegate.o
+t1280994943
+s57552
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/main.o
+t1280994943
+s6360
+
+N/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/main.m
+c000000004C5A6E1A0000000000000170
+t1280994842
+s368
+i<UIKit/UIKit.h>
+
+N/var/folders/zl/zl1uUcmk2RayXE+F75PZVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PocketTasks_Prefix-adotapwjrtzgclbxolnyiakrpaqc/PocketTasks_Prefix.pch.gch
+t1280994942
+s16097072
+
+NPocketTasks-Info.plist
+c000000004C5A6E1A000000000000038D
+t1280994842
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302687731#302687731#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/PocketTasksAppDelegate.o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302687743.154566
+e302687743.313860
+r1
+xCompileC
+xbuild/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/PocketTasksAppDelegate.o
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.m302687743#302687743#0(0"0(0#0#99"/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.m8604150880#2333"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-generated-files.hmap -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-own-target-headers.hmap -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-all-target-headers.hmap -iquote /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-project-headers.hmap -F/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/include -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/DerivedSources/i386 -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/DerivedSources -include /var/folders/zl/zl1uUcmk2RayXE+F75PZVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PocketTasks_Prefix-adotapwjrtzgclbxolnyiakrpaqc/PocketTasks_Prefix.pch -c /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/Classes/PocketTasksAppDelegate.m -o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/PocketTasksAppDelegate.o0#
+
+CCompileC build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/main.o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302687742.741266
+e302687743.241723
+r1
+xCompileC
+xbuild/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/main.o
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/main.m302687742#302687743#0(0"0(0#0#73"/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/main.m8607211552#2289"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-generated-files.hmap -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-own-target-headers.hmap -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-all-target-headers.hmap -iquote /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-project-headers.hmap -F/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/include -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/DerivedSources/i386 -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/DerivedSources -include /var/folders/zl/zl1uUcmk2RayXE+F75PZVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PocketTasks_Prefix-adotapwjrtzgclbxolnyiakrpaqc/PocketTasks_Prefix.pch -c /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/main.m -o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/MainWindow.xib
+s302687731.877942
+e302687735.194947
+r1
+xCompileXIB
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302687731#302687735#0(0"0(0#0#81"/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/MainWindow.xib8608766560#658"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/MainWindow.nib /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CDataModelVersionCompile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks.momd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks.xcdatamodeld
+s302687742.710562
+e302687743.154441
+r1
+xDataModelVersionCompile
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks.momd
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks.xcdatamodeld
+lSLF07#2@109"DataModelVersionCompile build/Debug-iphonesimulator/PocketTasks.app/PocketTasks.momd PocketTasks.xcdatamodeld302687742#302687743#0(0"0(0#0#91"/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks.xcdatamodeld8604386112#482"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks.xcdatamodeld /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks.momd0#
+
+CGenerateDSYMFile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app.dSYM /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks
+s302687743.939823
+e302687744.004643
+r1
+xGenerateDSYMFile
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app.dSYM
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/PocketTasks.app.dSYM build/Debug-iphonesimulator/PocketTasks.app/PocketTasks302687743#302687744#0(0"0(0#0#122"/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks8612898144#479"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks -o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app.dSYM0#
+
+CLd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks normal i386
+s302687743.313977
+e302687743.939713
+r1
+xLd
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks
+xnormal
+xi386
+lSLF07#2@127"Link /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks302687743#302687743#0(0"0(0#0#0"8613271040#1080"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator -F/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator -filelist /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/Objects-normal/i386/PocketTasks.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PocketTasks0#
+
+CProcessInfoPlistFile /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/Info.plist PocketTasks-Info.plist
+s302687731.755602
+e302687731.877671
+r1
+xProcessInfoPlistFile
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/Info.plist
+xPocketTasks-Info.plist
+lSLF07#2@30"Process PocketTasks-Info.plist302687731#302687731#0(0"0(0#0#89"/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks-Info.plist29555366482477168#575"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PocketTasks-Info.plist -genpkginfo /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app/Info.plist0#
+
+CProcessPCH /var/folders/zl/zl1uUcmk2RayXE+F75PZVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PocketTasks_Prefix-adotapwjrtzgclbxolnyiakrpaqc/PocketTasks_Prefix.pch.gch PocketTasks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302687735.195824
+e302687742.710293
+r1
+xProcessPCH
+x/var/folders/zl/zl1uUcmk2RayXE+F75PZVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PocketTasks_Prefix-adotapwjrtzgclbxolnyiakrpaqc/PocketTasks_Prefix.pch.gch
+xPocketTasks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile PocketTasks_Prefix.pch302687735#302687742#0(0"0(0#0#89"/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks_Prefix.pch8600162976#2149"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-generated-files.hmap -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-own-target-headers.hmap -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-all-target-headers.hmap -iquote /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/PocketTasks-project-headers.hmap -F/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/include -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/DerivedSources/i386 -I/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/PocketTasks.build/Debug-iphonesimulator/PocketTasks.build/DerivedSources -c /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/PocketTasks_Prefix.pch -o /var/folders/zl/zl1uUcmk2RayXE+F75PZVU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PocketTasks_Prefix-adotapwjrtzgclbxolnyiakrpaqc/PocketTasks_Prefix.pch.gch0#
+
+CTouch /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app
+s302687744.004751
+e302687744.100068
+r1
+xTouch
+x/Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app
+lSLF07#2@116"Touch /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app302687744#302687744#0(0"0(0#0#0"8607378208#338"    cd /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/johannes/Code/iPhone-Book-CodeSamples/Chapter13/PocketTasks/build/Debug-iphonesimulator/PocketTasks.app0#
+
