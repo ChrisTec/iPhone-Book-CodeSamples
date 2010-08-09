@@ -27,5 +27,8 @@
 
 - (NSString *)applicationDocumentsDirectory;
 
+- (void)createSampleData;
+- (void)dumpDataToConsole;
+
 @end
 

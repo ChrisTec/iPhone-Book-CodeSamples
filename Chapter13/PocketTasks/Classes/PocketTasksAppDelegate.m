@@ -18,12 +18,67 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-	
-    // Override point for customization after application launch.
+	//[self createSampleData];
+	[self dumpDataToConsole];
 	
     [window makeKeyAndVisible];
 	
 	return YES;
+}
+
+- (void)createSampleData {
+	// Create a list of sample names to add.
+	NSArray *peopleToAdd = [NSArray arrayWithObjects:
+							[NSArray arrayWithObjects:@"Peter", @"Pan", nil],
+							[NSArray arrayWithObjects:@"Bob", @"Dylan", nil],
+							[NSArray arrayWithObjects:@"Weird Al", @"Yankovic", nil],
+							nil];
+	
+	// Iterate over each name
+	for (NSArray *names in peopleToAdd) {
+		// Create a new Person entity in our managedObjectContext
+		NSManagedObject *newPerson = [NSEntityDescription insertNewObjectForEntityForName:@"Person"
+																   inManagedObjectContext:[self managedObjectContext]];
+		
+		// Set the firstName and lastName values of our new person
+		//[newPerson setValue:[names objectAtIndex:0] forKey:@"firstName"];
+		[newPerson setValue:[names objectAtIndex:1] forKey:@"lastName"];
+		
+		NSLog(@"Creating %@ %@...", [names objectAtIndex:0], [names objectAtIndex:1]);
+	}
+	
+	// Save everything
+	NSError *error = nil;
+	if (![[self managedObjectContext] save:&error]) {
+		NSLog(@"Error saving the managedObjectContext: %@", error);
+	} else {
+		NSLog(@"managedObjectContext successfully saved!");
+	}
+}
+
+- (void)dumpDataToConsole {
+	NSManagedObjectContext *moc = [self managedObjectContext];
+	// Create an NSFetchRequest for the Person entity
+	NSFetchRequest *request = [[NSFetchRequest alloc] init];
+	[request setEntity:[NSEntityDescription entityForName:@"Person" 
+								   inManagedObjectContext:moc]];
+	// Tell the request that the people should be sorted by their last name
+	[request setSortDescriptors:[NSArray arrayWithObject:
+								 [NSSortDescriptor sortDescriptorWithKey:@"lastName" 
+															   ascending:YES]]];
+	NSError *error = nil;
+	// Execute the fetch request
+	NSArray *people = [moc executeFetchRequest:request error:&error];
+	[request release];
+	
+	if (error) {
+		NSLog(@"Error fetching the person entities: %@", error);
+	} else {
+		for (NSManagedObject *person in people) {
+			NSLog(@"Found: %@ %@", [person valueForKey:@"firstName"], 
+				  [person valueForKey:@"lastName"]);
+		}
+	}
 }
 
 
