@@ -7,6 +7,11 @@
 //
 
 #import "PeopleViewController.h"
+#import "PersonDetailViewController.h"
+
+@interface PeopleViewController (PrivateMethods)
+- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
+@end
 
 
 @implementation PeopleViewController
@@ -31,6 +36,9 @@
 																managedObjectContext:moc 
 																  sectionNameKeyPath:nil 
 																		   cacheName:@"Person"];
+		
+		resultsController.delegate = self;
+		
 		[request release];
 		
 		NSError *error;
@@ -47,14 +55,50 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	
+	// Edit button
+    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+	
+	// Add button
+	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addPerson)];
+    self.navigationItem.rightBarButtonItem = addButton;
+    [addButton release];
 }
-*/
+
+- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+    NSManagedObject *person = [resultsController objectAtIndexPath:indexPath];
+	cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", [person valueForKey:@"firstName"], [person valueForKey:@"lastName"]];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i tasks", [[person valueForKey:@"tasks"] count]];
+}
+
+#pragma mark -
+#pragma mark Add a new person
+
+- (void)addPerson {	
+	// Create a new instance of the detail view controller
+	PersonDetailViewController *detailController = [[PersonDetailViewController
+													 alloc] initWithManagedObjectContext:managedObjectContext];
+	
+	// Wrap it in a UINavigationController so we have a navigation bar on top...
+	UINavigationController *controller = [[UINavigationController alloc]
+										  initWithRootViewController:detailController];
+	
+	// ... that we can add a save button to
+	detailController.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
+														   initWithBarButtonSystemItem:UIBarButtonSystemItemSave
+														   target:detailController 
+														   action:@selector(saveAndDismiss)] autorelease];
+	
+	// Present it modally
+	[self presentModalViewController:controller animated:YES];
+	
+	// Clean up
+	[controller release];
+	[detailController release];
+}
 
 
 
@@ -83,10 +127,8 @@
     }
     
     // Configure the cell...
-	NSManagedObject *person = [resultsController objectAtIndexPath:indexPath];
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", [person valueForKey:@"firstName"], [person valueForKey:@"lastName"]];
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i tasks", [[person valueForKey:@"tasks"] count]];
-    
+	[self configureCell:cell atIndexPath:indexPath];
+	
     return cell;
 }
 
@@ -100,19 +142,27 @@
 */
 
 
-/*
-// Override to support editing the table view.
+
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        // Delete the managed object for the given index path
+        [managedObjectContext deleteObject:[resultsController objectAtIndexPath:indexPath]];
+        
+        // Save the context.
+        NSError *error = nil;
+        if (![managedObjectContext save:&error]) {
+            /*
+             Replace this implementation with code to handle the error appropriately.
+             
+             abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. If it is not possible to recover from the error, display an alert panel that instructs the user to quit the application by pressing the Home button.
+             */
+            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
+        }
     }   
 }
-*/
+
 
 
 /*
@@ -143,6 +193,46 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
+}
+
+#pragma mark -
+#pragma mark Fetched results controller delegate
+
+
+- (void)controllerWillChangeContent:(NSFetchedResultsController *)controller {
+    [self.tableView beginUpdates];
+}
+
+- (void)controller:(NSFetchedResultsController *)controller didChangeObject:(id)anObject
+       atIndexPath:(NSIndexPath *)indexPath forChangeType:(NSFetchedResultsChangeType)type
+      newIndexPath:(NSIndexPath *)newIndexPath {
+    
+    UITableView *tableView = self.tableView;
+    
+    switch(type) {
+            
+        case NSFetchedResultsChangeInsert:
+            [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeDelete:
+            [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeUpdate:
+            [self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
+            break;
+            
+        case NSFetchedResultsChangeMove:
+            [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]withRowAnimation:UITableViewRowAnimationFade];
+            break;
+    }
+}
+
+
+- (void)controllerDidChangeContent:(NSFetchedResultsController *)controller {
+    [self.tableView endUpdates];
 }
 
 

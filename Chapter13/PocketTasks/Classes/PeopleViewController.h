@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface PeopleViewController : UITableViewController {
+@interface PeopleViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
 	NSFetchedResultsController *resultsController;
 	NSManagedObjectContext *managedObjectContext;
 }

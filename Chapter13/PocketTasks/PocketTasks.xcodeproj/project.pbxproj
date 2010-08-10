@@ -16,6 +16,8 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		8F49B4B012103ED9000D47D0 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B4AF12103ED9000D47D0 /* PeopleViewController.m */; };
+		8F49B50B121156FC000D47D0 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B509121156FC000D47D0 /* PersonDetailViewController.m */; };
+		8F49B50C121156FC000D47D0 /* PersonDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49B50A121156FC000D47D0 /* PersonDetailView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		8D1107310486CEB800E47090 /* PocketTasks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PocketTasks-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		8F49B4AE12103ED9000D47D0 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
 		8F49B4AF12103ED9000D47D0 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		8F49B508121156FC000D47D0 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
+		8F49B509121156FC000D47D0 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
+		8F49B50A121156FC000D47D0 /* PersonDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonDetailView.xib; path = Classes/PersonDetailView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,8 @@
 				1D3623250D0F684500981E51 /* PocketTasksAppDelegate.m */,
 				8F49B4AE12103ED9000D47D0 /* PeopleViewController.h */,
 				8F49B4AF12103ED9000D47D0 /* PeopleViewController.m */,
+				8F49B508121156FC000D47D0 /* PersonDetailViewController.h */,
+				8F49B509121156FC000D47D0 /* PersonDetailViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8F49B50A121156FC000D47D0 /* PersonDetailView.xib */,
 				2819305F112F816700ECF9B4 /* PocketTasks.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* PocketTasks-Info.plist */,
@@ -154,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				8F49B50C121156FC000D47D0 /* PersonDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 				1D3623260D0F684500981E51 /* PocketTasksAppDelegate.m in Sources */,
 				28193060112F816700ECF9B4 /* PocketTasks.xcdatamodeld in Sources */,
 				8F49B4B012103ED9000D47D0 /* PeopleViewController.m in Sources */,
+				8F49B50B121156FC000D47D0 /* PersonDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
