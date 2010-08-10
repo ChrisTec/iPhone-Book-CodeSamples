@@ -12,6 +12,7 @@
 @interface PocketTasksAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
+	UINavigationController *navigationController;
     
 @private
     NSManagedObjectContext *managedObjectContext_;

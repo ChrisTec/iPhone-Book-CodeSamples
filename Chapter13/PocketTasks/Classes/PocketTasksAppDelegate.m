@@ -7,6 +7,7 @@
 //
 
 #import "PocketTasksAppDelegate.h"
+#import "PeopleViewController.h"
 
 
 @implementation PocketTasksAppDelegate
@@ -17,9 +18,18 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+- (BOOL)application:(UIApplication *)application 
+        didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	//[self createSampleData];
-	[self dumpDataToConsole];
+	//[self dumpDataToConsole];
+	
+	PeopleViewController *peopleViewController = [[PeopleViewController alloc] 
+												  initWithManagedObjectContext:[self managedObjectContext]];
+	navigationController = [[UINavigationController alloc] initWithRootViewController:peopleViewController];
+	[peopleViewController release];
+	peopleViewController = nil;
+	
+	[window addSubview:[navigationController view]];
 	
     [window makeKeyAndVisible];
 	
@@ -242,6 +252,8 @@
     [managedObjectContext_ release];
     [managedObjectModel_ release];
     [persistentStoreCoordinator_ release];
+	
+	[navigationController release];
     
     [window release];
     [super dealloc];
