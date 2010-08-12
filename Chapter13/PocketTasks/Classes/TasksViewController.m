@@ -24,6 +24,8 @@
 		NSManagedObjectContext *moc = [aPerson managedObjectContext];
 		person = [aPerson retain];
 		
+		self.title = [NSString stringWithFormat:@"%@ %@", [person valueForKey:@"firstName"], [person valueForKey:@"lastName"]];
+		
 		NSFetchRequest *request = [[NSFetchRequest alloc] init];
 		[request setEntity:[NSEntityDescription entityForName:@"Task" 
 									   inManagedObjectContext:moc]];
@@ -73,7 +75,7 @@
     NSManagedObject *task = [resultsController objectAtIndexPath:indexPath];
 	cell.textLabel.text = [task valueForKey:@"name"];
 	
-	if ([task primitiveValueForKey:@"isDone"]) {
+	if ([[task valueForKey:@"isDone"] boolValue]) {
 		cell.accessoryType = UITableViewCellAccessoryCheckmark;
 	} else {
 		cell.accessoryType = UITableViewCellAccessoryNone;
@@ -159,7 +161,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSManagedObject *task = [resultsController objectAtIndexPath:indexPath];
-	if (![task primitiveValueForKey:@"isDone"]) {
+	if (![[task valueForKey:@"isDone"] boolValue]) {
 		[task setValue:[NSNumber numberWithBool:YES] forKey:@"isDone"];
 		
 		// Save the context.

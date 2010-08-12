@@ -25,6 +25,8 @@
 	if (self = [super initWithStyle:UITableViewStylePlain]) {
 		managedObjectContext = [moc retain];
 		
+		self.title = @"People";
+		
 		NSFetchRequest *request = [[NSFetchRequest alloc] init];
 		[request setEntity:[NSEntityDescription entityForName:@"Person" 
 									   inManagedObjectContext:moc]];
