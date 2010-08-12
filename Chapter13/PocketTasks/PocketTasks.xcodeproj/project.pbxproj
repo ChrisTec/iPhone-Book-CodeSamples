@@ -18,6 +18,7 @@
 		8F49B4B012103ED9000D47D0 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B4AF12103ED9000D47D0 /* PeopleViewController.m */; };
 		8F49B50B121156FC000D47D0 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B509121156FC000D47D0 /* PersonDetailViewController.m */; };
 		8F49B50C121156FC000D47D0 /* PersonDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49B50A121156FC000D47D0 /* PersonDetailView.xib */; };
+		8F49B5821211780A000D47D0 /* TasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B5811211780A000D47D0 /* TasksViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		8F49B508121156FC000D47D0 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
 		8F49B509121156FC000D47D0 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
 		8F49B50A121156FC000D47D0 /* PersonDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonDetailView.xib; path = Classes/PersonDetailView.xib; sourceTree = "<group>"; };
+		8F49B5801211780A000D47D0 /* TasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksViewController.h; sourceTree = "<group>"; };
+		8F49B5811211780A000D47D0 /* TasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				8F49B4AF12103ED9000D47D0 /* PeopleViewController.m */,
 				8F49B508121156FC000D47D0 /* PersonDetailViewController.h */,
 				8F49B509121156FC000D47D0 /* PersonDetailViewController.m */,
+				8F49B5801211780A000D47D0 /* TasksViewController.h */,
+				8F49B5811211780A000D47D0 /* TasksViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				28193060112F816700ECF9B4 /* PocketTasks.xcdatamodeld in Sources */,
 				8F49B4B012103ED9000D47D0 /* PeopleViewController.m in Sources */,
 				8F49B50B121156FC000D47D0 /* PersonDetailViewController.m in Sources */,
+				8F49B5821211780A000D47D0 /* TasksViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

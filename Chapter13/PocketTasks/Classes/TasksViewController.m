@@ -1,42 +1,44 @@
 //
-//  PeopleViewController.m
+//  TasksViewController.m
 //  PocketTasks
 //
-//  Created by Johannes Fahrenkrug on 09.08.10.
+//  Created by Johannes Fahrenkrug on 10.08.10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "PeopleViewController.h"
-#import "PersonDetailViewController.h"
 #import "TasksViewController.h"
 
-@interface PeopleViewController (PrivateMethods)
+
+@interface TasksViewController (PrivateMethods)
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
 @end
 
-
-@implementation PeopleViewController
+@implementation TasksViewController
 
 
 #pragma mark -
 #pragma mark Initialization
 
-- (id)initWithManagedObjectContext:(NSManagedObjectContext *)moc {
+- (id)initWithPerson:(NSManagedObject *)aPerson {
 	if (self = [super initWithStyle:UITableViewStylePlain]) {
-		managedObjectContext = [moc retain];
+		NSManagedObjectContext *moc = [aPerson managedObjectContext];
+		person = [aPerson retain];
 		
 		NSFetchRequest *request = [[NSFetchRequest alloc] init];
-		[request setEntity:[NSEntityDescription entityForName:@"Person" 
+		[request setEntity:[NSEntityDescription entityForName:@"Task" 
 									   inManagedObjectContext:moc]];
 		// Tell the request that the people should be sorted by their last name
 		[request setSortDescriptors:[NSArray arrayWithObject:
-									 [NSSortDescriptor sortDescriptorWithKey:@"lastName" 
+									 [NSSortDescriptor sortDescriptorWithKey:@"name" 
 																   ascending:YES]]];
+		
+		// Tell the request only to fetch tasks that belong to the given person
+		[request setPredicate:[NSPredicate predicateWithFormat:@"person == %@", person]];
 		
 		resultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request 
 																managedObjectContext:moc 
 																  sectionNameKeyPath:nil 
-																		   cacheName:@"Person"];
+																		   cacheName:@"Task"];
 		
 		resultsController.delegate = self;
 		
@@ -59,48 +61,45 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
-	// Edit button
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-	
-	// Add button
-	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addPerson)];
+
+    // Add button
+	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addTask)];
     self.navigationItem.rightBarButtonItem = addButton;
     [addButton release];
 }
 
+
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-    NSManagedObject *person = [resultsController objectAtIndexPath:indexPath];
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", [person valueForKey:@"firstName"], [person valueForKey:@"lastName"]];
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i tasks", [[person valueForKey:@"tasks"] count]];
+    NSManagedObject *task = [resultsController objectAtIndexPath:indexPath];
+	cell.textLabel.text = [task valueForKey:@"name"];
+	
+	if ([task primitiveValueForKey:@"isDone"]) {
+		cell.accessoryType = UITableViewCellAccessoryCheckmark;
+	} else {
+		cell.accessoryType = UITableViewCellAccessoryNone;
+	}
+
 }
 
 #pragma mark -
-#pragma mark Add a new person
-
-- (void)addPerson {	
-	// Create a new instance of the detail view controller
-	PersonDetailViewController *detailController = [[PersonDetailViewController
-													 alloc] initWithManagedObjectContext:managedObjectContext];
+#pragma mark Add a new Task
+- (void)addTask {
+	// Create a new instance of the Task entity
+	NSManagedObject *task = [NSEntityDescription insertNewObjectForEntityForName:@"Task" 
+										   inManagedObjectContext:[person managedObjectContext]];
 	
-	// Wrap it in a UINavigationController so we have a navigation bar on top...
-	UINavigationController *controller = [[UINavigationController alloc]
-										  initWithRootViewController:detailController];
+	[task setValue:[NSString stringWithFormat:@"Task %i", [[person valueForKey:@"tasks"] count] + 1] forKey:@"name"];
+	[task setValue:[NSNumber numberWithBool:NO] forKey:@"isDone"];
+	[task setValue:person forKey:@"person"];
 	
-	// ... that we can add a save button to
-	detailController.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
-														   initWithBarButtonSystemItem:UIBarButtonSystemItemSave
-														   target:detailController 
-														   action:@selector(saveAndDismiss)] autorelease];
-	
-	// Present it modally
-	[self presentModalViewController:controller animated:YES];
-	
-	// Clean up
-	[controller release];
-	[detailController release];
+	// Save the context.
+	NSError *error = nil;
+	if (![[person managedObjectContext] save:&error]) {
+		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+	} else {
+		// success
+	}		
 }
-
 
 
 #pragma mark -
@@ -118,13 +117,13 @@
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
-    static NSString *CellIdentifier = @"PersonCell";
+	
+    static NSString *CellIdentifier = @"TaskCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+		cell.accessoryType = UITableViewCellAccessoryNone;
     }
     
     // Configure the cell...
@@ -134,25 +133,15 @@
 }
 
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the managed object for the given index path
-        [managedObjectContext deleteObject:[resultsController objectAtIndexPath:indexPath]];
+        [[person managedObjectContext] deleteObject:[resultsController objectAtIndexPath:indexPath]];
         
         // Save the context.
         NSError *error = nil;
-        if (![managedObjectContext save:&error]) {
+        if (![[person managedObjectContext] save:&error]) {
             /*
              Replace this implementation with code to handle the error appropriately.
              
@@ -164,35 +153,27 @@
     }   
 }
 
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-
 #pragma mark -
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	
-	 TasksViewController *tasksViewController = [[TasksViewController alloc] initWithPerson:[resultsController objectAtIndexPath:indexPath]];
-
-	 [self.navigationController pushViewController:tasksViewController animated:YES];
-	 [tasksViewController release];
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSManagedObject *task = [resultsController objectAtIndexPath:indexPath];
+	if (![task primitiveValueForKey:@"isDone"]) {
+		[task setValue:[NSNumber numberWithBool:YES] forKey:@"isDone"];
+		
+		// Save the context.
+        NSError *error = nil;
+        if (![[task managedObjectContext] save:&error]) {
+            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
+        }
+		
+		// update the cell to show the checkmark
+		[self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
+	}
 }
+
 
 #pragma mark -
 #pragma mark Fetched results controller delegate
@@ -252,8 +233,8 @@
 
 
 - (void)dealloc {
-	[managedObjectContext release];
 	[resultsController release];
+	[person release];
     [super dealloc];
 }
 
