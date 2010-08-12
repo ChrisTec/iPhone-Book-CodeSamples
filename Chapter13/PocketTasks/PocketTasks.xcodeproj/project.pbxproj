@@ -19,6 +19,8 @@
 		8F49B50B121156FC000D47D0 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B509121156FC000D47D0 /* PersonDetailViewController.m */; };
 		8F49B50C121156FC000D47D0 /* PersonDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49B50A121156FC000D47D0 /* PersonDetailView.xib */; };
 		8F49B5821211780A000D47D0 /* TasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B5811211780A000D47D0 /* TasksViewController.m */; };
+		8F49B6A212143206000D47D0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B69F12143206000D47D0 /* Person.m */; };
+		8F49B6A312143206000D47D0 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49B6A112143206000D47D0 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,10 @@
 		8F49B50A121156FC000D47D0 /* PersonDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PersonDetailView.xib; path = Classes/PersonDetailView.xib; sourceTree = "<group>"; };
 		8F49B5801211780A000D47D0 /* TasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksViewController.h; sourceTree = "<group>"; };
 		8F49B5811211780A000D47D0 /* TasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksViewController.m; sourceTree = "<group>"; };
+		8F49B69E12143205000D47D0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		8F49B69F12143206000D47D0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		8F49B6A012143206000D47D0 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = ../Task.h; sourceTree = "<group>"; };
+		8F49B6A112143206000D47D0 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = ../Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,10 @@
 				8F49B509121156FC000D47D0 /* PersonDetailViewController.m */,
 				8F49B5801211780A000D47D0 /* TasksViewController.h */,
 				8F49B5811211780A000D47D0 /* TasksViewController.m */,
+				8F49B69E12143205000D47D0 /* Person.h */,
+				8F49B69F12143206000D47D0 /* Person.m */,
+				8F49B6A012143206000D47D0 /* Task.h */,
+				8F49B6A112143206000D47D0 /* Task.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -184,6 +194,8 @@
 				8F49B4B012103ED9000D47D0 /* PeopleViewController.m in Sources */,
 				8F49B50B121156FC000D47D0 /* PersonDetailViewController.m in Sources */,
 				8F49B5821211780A000D47D0 /* TasksViewController.m in Sources */,
+				8F49B6A212143206000D47D0 /* Person.m in Sources */,
+				8F49B6A312143206000D47D0 /* Task.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

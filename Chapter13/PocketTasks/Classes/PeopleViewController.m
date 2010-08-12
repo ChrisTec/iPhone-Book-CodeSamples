@@ -9,6 +9,7 @@
 #import "PeopleViewController.h"
 #import "PersonDetailViewController.h"
 #import "TasksViewController.h"
+#import "Person.h"
 
 @interface PeopleViewController (PrivateMethods)
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
@@ -38,7 +39,7 @@
 		resultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request 
 																managedObjectContext:moc 
 																  sectionNameKeyPath:nil 
-																		   cacheName:@"Person"];
+																		   cacheName:nil];
 		
 		resultsController.delegate = self;
 		
@@ -72,9 +73,9 @@
 }
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-    NSManagedObject *person = [resultsController objectAtIndexPath:indexPath];
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ %@", [person valueForKey:@"firstName"], [person valueForKey:@"lastName"]];
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i tasks", [[person valueForKey:@"tasks"] count]];
+    Person *person = [resultsController objectAtIndexPath:indexPath];
+	cell.textLabel.text = person.fullName;
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"%i tasks", [person.tasks count]];
 }
 
 #pragma mark -

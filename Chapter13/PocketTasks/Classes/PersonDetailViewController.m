@@ -35,8 +35,8 @@
 		[alert show];
 		[alert release];
 	} else {
-		[person setValue:[firstNameTextField text] forKey:@"firstName"];
-		[person setValue:[lastNameTextField text] forKey:@"lastName"];
+		person.firstName = [firstNameTextField text];
+		person.lastName = [lastNameTextField text];
 		
 		// Save the context.
 		NSError *error = nil;

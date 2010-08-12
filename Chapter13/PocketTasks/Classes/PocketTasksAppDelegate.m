@@ -51,7 +51,7 @@
 																   inManagedObjectContext:[self managedObjectContext]];
 		
 		// Set the firstName and lastName values of our new person
-		//[newPerson setValue:[names objectAtIndex:0] forKey:@"firstName"];
+		[newPerson setValue:[names objectAtIndex:0] forKey:@"firstName"];
 		[newPerson setValue:[names objectAtIndex:1] forKey:@"lastName"];
 		
 		NSLog(@"Creating %@ %@...", [names objectAtIndex:0], [names objectAtIndex:1]);

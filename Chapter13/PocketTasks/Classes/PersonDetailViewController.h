@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Person.h"
 
 
 @interface PersonDetailViewController : UIViewController {
@@ -14,7 +15,7 @@
 	IBOutlet UITextField *lastNameTextField;
 	
 	NSManagedObjectContext *managedObjectContext;
-	NSManagedObject *person;
+	Person *person;
 }
 
 - (id)initWithManagedObjectContext:(NSManagedObjectContext *)moc;

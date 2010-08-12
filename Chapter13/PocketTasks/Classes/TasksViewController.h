@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Person.h"
 
 
 @interface TasksViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
-	NSManagedObject *person;
+	Person *person;
 	NSFetchedResultsController *resultsController;
 }
 
-- (id)initWithPerson:(NSManagedObject *)aPerson;
+- (id)initWithPerson:(Person *)aPerson;
 
 @end

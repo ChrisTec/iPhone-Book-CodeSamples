@@ -7,6 +7,7 @@
 //
 
 #import "TasksViewController.h"
+#import "Task.h"
 
 
 @interface TasksViewController (PrivateMethods)
@@ -19,7 +20,7 @@
 #pragma mark -
 #pragma mark Initialization
 
-- (id)initWithPerson:(NSManagedObject *)aPerson {
+- (id)initWithPerson:(Person *)aPerson {
 	if (self = [super initWithStyle:UITableViewStylePlain]) {
 		NSManagedObjectContext *moc = [aPerson managedObjectContext];
 		person = [aPerson retain];
@@ -40,7 +41,7 @@
 		resultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request 
 																managedObjectContext:moc 
 																  sectionNameKeyPath:nil 
-																		   cacheName:@"Task"];
+																		   cacheName:nil];
 		
 		resultsController.delegate = self;
 		
@@ -72,10 +73,10 @@
 
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-    NSManagedObject *task = [resultsController objectAtIndexPath:indexPath];
-	cell.textLabel.text = [task valueForKey:@"name"];
+    Task *task = [resultsController objectAtIndexPath:indexPath];
+	cell.textLabel.text = task.name;
 	
-	if ([[task valueForKey:@"isDone"] boolValue]) {
+	if ([task.isDone boolValue]) {
 		cell.accessoryType = UITableViewCellAccessoryCheckmark;
 	} else {
 		cell.accessoryType = UITableViewCellAccessoryNone;
@@ -87,12 +88,13 @@
 #pragma mark Add a new Task
 - (void)addTask {
 	// Create a new instance of the Task entity
-	NSManagedObject *task = [NSEntityDescription insertNewObjectForEntityForName:@"Task" 
+	Task *task = [NSEntityDescription insertNewObjectForEntityForName:@"Task" 
 										   inManagedObjectContext:[person managedObjectContext]];
 	
-	[task setValue:[NSString stringWithFormat:@"Task %i", [[person valueForKey:@"tasks"] count] + 1] forKey:@"name"];
-	[task setValue:[NSNumber numberWithBool:NO] forKey:@"isDone"];
-	[task setValue:person forKey:@"person"];
+	task.name = [NSString stringWithFormat:@"Task %i", [person.tasks count] + 1];
+	task.isDone = [NSNumber numberWithBool:NO];
+	
+	[person addTasksObject:task];
 	
 	// Save the context.
 	NSError *error = nil;
@@ -160,9 +162,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-    NSManagedObject *task = [resultsController objectAtIndexPath:indexPath];
-	if (![[task valueForKey:@"isDone"] boolValue]) {
-		[task setValue:[NSNumber numberWithBool:YES] forKey:@"isDone"];
+    Task *task = [resultsController objectAtIndexPath:indexPath];
+	if (![[task valueForKey:@"isDone"] boolValue]) {		
+		task.isDone = [NSNumber numberWithBool:YES];
 		
 		// Save the context.
         NSError *error = nil;
