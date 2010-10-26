@@ -36,6 +36,8 @@
 									 [NSSortDescriptor sortDescriptorWithKey:@"lastName" 
 																   ascending:YES]]];
 		
+		[request setRelationshipKeyPathsForPrefetching:[NSArray arrayWithObject:@"tasks"]];
+		
 		resultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request 
 																managedObjectContext:moc 
 																  sectionNameKeyPath:nil 
