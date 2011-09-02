@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2643A751137E84570014D8CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2643A750137E84570014D8CC /* UIKit.framework */; };
+		2643A753137E84570014D8CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2643A752137E84570014D8CC /* Foundation.framework */; };
+		2643A755137E84570014D8CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2643A754137E84570014D8CC /* CoreGraphics.framework */; };
+		2643A75B137E84570014D8CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2643A759137E84570014D8CC /* InfoPlist.strings */; };
+		2643A75E137E84570014D8CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A75D137E84570014D8CC /* main.m */; };
+		2643A761137E84570014D8CC /* VowelDestroyerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A760137E84570014D8CC /* VowelDestroyerAppDelegate.m */; };
+		2643A764137E84570014D8CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2643A762137E84570014D8CC /* MainWindow.xib */; };
+		2643A767137E84570014D8CC /* VowelDestroyerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A766137E84570014D8CC /* VowelDestroyerViewController.m */; };
+		2643A76A137E84570014D8CC /* VowelDestroyerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2643A768137E84570014D8CC /* VowelDestroyerViewController.xib */; };
+		2643A7C2137E85E90014D8CC /* VowelDestroyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A7C1137E85E90014D8CC /* VowelDestroyer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2643A74C137E84570014D8CC /* VowelDestroyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VowelDestroyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2643A750137E84570014D8CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2643A752137E84570014D8CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2643A754137E84570014D8CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2643A758137E84570014D8CC /* VowelDestroyer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VowelDestroyer-Info.plist"; sourceTree = "<group>"; };
+		2643A75A137E84570014D8CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2643A75C137E84570014D8CC /* VowelDestroyer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VowelDestroyer-Prefix.pch"; sourceTree = "<group>"; };
+		2643A75D137E84570014D8CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2643A75F137E84570014D8CC /* VowelDestroyerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VowelDestroyerAppDelegate.h; sourceTree = "<group>"; };
+		2643A760137E84570014D8CC /* VowelDestroyerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VowelDestroyerAppDelegate.m; sourceTree = "<group>"; };
+		2643A763137E84570014D8CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2643A765137E84570014D8CC /* VowelDestroyerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VowelDestroyerViewController.h; sourceTree = "<group>"; };
+		2643A766137E84570014D8CC /* VowelDestroyerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VowelDestroyerViewController.m; sourceTree = "<group>"; };
+		2643A769137E84570014D8CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VowelDestroyerViewController.xib; sourceTree = "<group>"; };
+		2643A7C0137E85E90014D8CC /* VowelDestroyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VowelDestroyer.h; sourceTree = "<group>"; };
+		2643A7C1137E85E90014D8CC /* VowelDestroyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VowelDestroyer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2643A749137E84570014D8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643A751137E84570014D8CC /* UIKit.framework in Frameworks */,
+				2643A753137E84570014D8CC /* Foundation.framework in Frameworks */,
+				2643A755137E84570014D8CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2643A741137E84570014D8CC = {
+			isa = PBXGroup;
+			children = (
+				2643A756137E84570014D8CC /* VowelDestroyer */,
+				2643A74F137E84570014D8CC /* Frameworks */,
+				2643A74D137E84570014D8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2643A74D137E84570014D8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2643A74C137E84570014D8CC /* VowelDestroyer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2643A74F137E84570014D8CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2643A750137E84570014D8CC /* UIKit.framework */,
+				2643A752137E84570014D8CC /* Foundation.framework */,
+				2643A754137E84570014D8CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2643A756137E84570014D8CC /* VowelDestroyer */ = {
+			isa = PBXGroup;
+			children = (
+				2643A75F137E84570014D8CC /* VowelDestroyerAppDelegate.h */,
+				2643A760137E84570014D8CC /* VowelDestroyerAppDelegate.m */,
+				2643A762137E84570014D8CC /* MainWindow.xib */,
+				2643A765137E84570014D8CC /* VowelDestroyerViewController.h */,
+				2643A766137E84570014D8CC /* VowelDestroyerViewController.m */,
+				2643A768137E84570014D8CC /* VowelDestroyerViewController.xib */,
+				2643A757137E84570014D8CC /* Supporting Files */,
+				2643A7C0137E85E90014D8CC /* VowelDestroyer.h */,
+				2643A7C1137E85E90014D8CC /* VowelDestroyer.m */,
+			);
+			path = VowelDestroyer;
+			sourceTree = "<group>";
+		};
+		2643A757137E84570014D8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2643A758137E84570014D8CC /* VowelDestroyer-Info.plist */,
+				2643A759137E84570014D8CC /* InfoPlist.strings */,
+				2643A75C137E84570014D8CC /* VowelDestroyer-Prefix.pch */,
+				2643A75D137E84570014D8CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2643A74B137E84570014D8CC /* VowelDestroyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2643A76D137E84570014D8CC /* Build configuration list for PBXNativeTarget "VowelDestroyer" */;
+			buildPhases = (
+				2643A748137E84570014D8CC /* Sources */,
+				2643A749137E84570014D8CC /* Frameworks */,
+				2643A74A137E84570014D8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VowelDestroyer;
+			productName = VowelDestroyer;
+			productReference = 2643A74C137E84570014D8CC /* VowelDestroyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2643A743137E84570014D8CC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2643A746137E84570014D8CC /* Build configuration list for PBXProject "VowelDestroyer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2643A741137E84570014D8CC;
+			productRefGroup = 2643A74D137E84570014D8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2643A74B137E84570014D8CC /* VowelDestroyer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2643A74A137E84570014D8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643A75B137E84570014D8CC /* InfoPlist.strings in Resources */,
+				2643A764137E84570014D8CC /* MainWindow.xib in Resources */,
+				2643A76A137E84570014D8CC /* VowelDestroyerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2643A748137E84570014D8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643A75E137E84570014D8CC /* main.m in Sources */,
+				2643A761137E84570014D8CC /* VowelDestroyerAppDelegate.m in Sources */,
+				2643A767137E84570014D8CC /* VowelDestroyerViewController.m in Sources */,
+				2643A7C2137E85E90014D8CC /* VowelDestroyer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2643A759137E84570014D8CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2643A75A137E84570014D8CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2643A762137E84570014D8CC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2643A763137E84570014D8CC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2643A768137E84570014D8CC /* VowelDestroyerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2643A769137E84570014D8CC /* en */,
+			);
+			name = VowelDestroyerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2643A76B137E84570014D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2643A76C137E84570014D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2643A76E137E84570014D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VowelDestroyer/VowelDestroyer-Prefix.pch";
+				INFOPLIST_FILE = "VowelDestroyer/VowelDestroyer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2643A76F137E84570014D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VowelDestroyer/VowelDestroyer-Prefix.pch";
+				INFOPLIST_FILE = "VowelDestroyer/VowelDestroyer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2643A746137E84570014D8CC /* Build configuration list for PBXProject "VowelDestroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2643A76B137E84570014D8CC /* Debug */,
+				2643A76C137E84570014D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2643A76D137E84570014D8CC /* Build configuration list for PBXNativeTarget "VowelDestroyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2643A76E137E84570014D8CC /* Debug */,
+				2643A76F137E84570014D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2643A743137E84570014D8CC /* Project object */;
+}

@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2643A788137E848A0014D8CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2643A787137E848A0014D8CC /* UIKit.framework */; };
+		2643A78A137E848A0014D8CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2643A789137E848A0014D8CC /* Foundation.framework */; };
+		2643A78C137E848A0014D8CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2643A78B137E848A0014D8CC /* CoreGraphics.framework */; };
+		2643A792137E848A0014D8CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2643A790137E848A0014D8CC /* InfoPlist.strings */; };
+		2643A795137E848A0014D8CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A794137E848A0014D8CC /* main.m */; };
+		2643A798137E848A0014D8CC /* PersonClassAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A797137E848A0014D8CC /* PersonClassAppDelegate.m */; };
+		2643A79B137E848A0014D8CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2643A799137E848A0014D8CC /* MainWindow.xib */; };
+		2643A79E137E848A0014D8CC /* PersonClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A79D137E848A0014D8CC /* PersonClassViewController.m */; };
+		2643A7A1137E848A0014D8CC /* PersonClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2643A79F137E848A0014D8CC /* PersonClassViewController.xib */; };
+		2643A7AD137E849F0014D8CC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A7A8137E849F0014D8CC /* Person.m */; };
+		2643A7AE137E849F0014D8CC /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A7AA137E849F0014D8CC /* Student.m */; };
+		2643A7AF137E849F0014D8CC /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2643A7AC137E849F0014D8CC /* Teacher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2643A783137E848A0014D8CC /* PersonClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2643A787137E848A0014D8CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2643A789137E848A0014D8CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2643A78B137E848A0014D8CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2643A78F137E848A0014D8CC /* PersonClass-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PersonClass-Info.plist"; sourceTree = "<group>"; };
+		2643A791137E848A0014D8CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2643A793137E848A0014D8CC /* PersonClass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonClass-Prefix.pch"; sourceTree = "<group>"; };
+		2643A794137E848A0014D8CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2643A796137E848A0014D8CC /* PersonClassAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonClassAppDelegate.h; sourceTree = "<group>"; };
+		2643A797137E848A0014D8CC /* PersonClassAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonClassAppDelegate.m; sourceTree = "<group>"; };
+		2643A79A137E848A0014D8CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2643A79C137E848A0014D8CC /* PersonClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonClassViewController.h; sourceTree = "<group>"; };
+		2643A79D137E848A0014D8CC /* PersonClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonClassViewController.m; sourceTree = "<group>"; };
+		2643A7A0137E848A0014D8CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PersonClassViewController.xib; sourceTree = "<group>"; };
+		2643A7A7137E849F0014D8CC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2643A7A8137E849F0014D8CC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2643A7A9137E849F0014D8CC /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2643A7AA137E849F0014D8CC /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		2643A7AB137E849F0014D8CC /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2643A7AC137E849F0014D8CC /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2643A780137E848A0014D8CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643A788137E848A0014D8CC /* UIKit.framework in Frameworks */,
+				2643A78A137E848A0014D8CC /* Foundation.framework in Frameworks */,
+				2643A78C137E848A0014D8CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2643A778137E848A0014D8CC = {
+			isa = PBXGroup;
+			children = (
+				2643A78D137E848A0014D8CC /* PersonClass */,
+				2643A786137E848A0014D8CC /* Frameworks */,
+				2643A784137E848A0014D8CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2643A784137E848A0014D8CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2643A783137E848A0014D8CC /* PersonClass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2643A786137E848A0014D8CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2643A787137E848A0014D8CC /* UIKit.framework */,
+				2643A789137E848A0014D8CC /* Foundation.framework */,
+				2643A78B137E848A0014D8CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2643A78D137E848A0014D8CC /* PersonClass */ = {
+			isa = PBXGroup;
+			children = (
+				2643A796137E848A0014D8CC /* PersonClassAppDelegate.h */,
+				2643A797137E848A0014D8CC /* PersonClassAppDelegate.m */,
+				2643A799137E848A0014D8CC /* MainWindow.xib */,
+				2643A79C137E848A0014D8CC /* PersonClassViewController.h */,
+				2643A79D137E848A0014D8CC /* PersonClassViewController.m */,
+				2643A79F137E848A0014D8CC /* PersonClassViewController.xib */,
+				2643A7A7137E849F0014D8CC /* Person.h */,
+				2643A7A8137E849F0014D8CC /* Person.m */,
+				2643A7A9137E849F0014D8CC /* Student.h */,
+				2643A7AA137E849F0014D8CC /* Student.m */,
+				2643A7AB137E849F0014D8CC /* Teacher.h */,
+				2643A7AC137E849F0014D8CC /* Teacher.m */,
+				2643A78E137E848A0014D8CC /* Supporting Files */,
+			);
+			path = PersonClass;
+			sourceTree = "<group>";
+		};
+		2643A78E137E848A0014D8CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2643A78F137E848A0014D8CC /* PersonClass-Info.plist */,
+				2643A790137E848A0014D8CC /* InfoPlist.strings */,
+				2643A793137E848A0014D8CC /* PersonClass-Prefix.pch */,
+				2643A794137E848A0014D8CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2643A782137E848A0014D8CC /* PersonClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2643A7A4137E848A0014D8CC /* Build configuration list for PBXNativeTarget "PersonClass" */;
+			buildPhases = (
+				2643A77F137E848A0014D8CC /* Sources */,
+				2643A780137E848A0014D8CC /* Frameworks */,
+				2643A781137E848A0014D8CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonClass;
+			productName = PersonClass;
+			productReference = 2643A783137E848A0014D8CC /* PersonClass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2643A77A137E848A0014D8CC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2643A77D137E848A0014D8CC /* Build configuration list for PBXProject "PersonClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2643A778137E848A0014D8CC;
+			productRefGroup = 2643A784137E848A0014D8CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2643A782137E848A0014D8CC /* PersonClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2643A781137E848A0014D8CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643A792137E848A0014D8CC /* InfoPlist.strings in Resources */,
+				2643A79B137E848A0014D8CC /* MainWindow.xib in Resources */,
+				2643A7A1137E848A0014D8CC /* PersonClassViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2643A77F137E848A0014D8CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643A795137E848A0014D8CC /* main.m in Sources */,
+				2643A798137E848A0014D8CC /* PersonClassAppDelegate.m in Sources */,
+				2643A79E137E848A0014D8CC /* PersonClassViewController.m in Sources */,
+				2643A7AD137E849F0014D8CC /* Person.m in Sources */,
+				2643A7AE137E849F0014D8CC /* Student.m in Sources */,
+				2643A7AF137E849F0014D8CC /* Teacher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2643A790137E848A0014D8CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2643A791137E848A0014D8CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2643A799137E848A0014D8CC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2643A79A137E848A0014D8CC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2643A79F137E848A0014D8CC /* PersonClassViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2643A7A0137E848A0014D8CC /* en */,
+			);
+			name = PersonClassViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2643A7A2137E848A0014D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2643A7A3137E848A0014D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2643A7A5137E848A0014D8CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersonClass/PersonClass-Prefix.pch";
+				INFOPLIST_FILE = "PersonClass/PersonClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2643A7A6137E848A0014D8CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersonClass/PersonClass-Prefix.pch";
+				INFOPLIST_FILE = "PersonClass/PersonClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2643A77D137E848A0014D8CC /* Build configuration list for PBXProject "PersonClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2643A7A2137E848A0014D8CC /* Debug */,
+				2643A7A3137E848A0014D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2643A7A4137E848A0014D8CC /* Build configuration list for PBXNativeTarget "PersonClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2643A7A5137E848A0014D8CC /* Debug */,
+				2643A7A6137E848A0014D8CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2643A77A137E848A0014D8CC /* Project object */;
+}

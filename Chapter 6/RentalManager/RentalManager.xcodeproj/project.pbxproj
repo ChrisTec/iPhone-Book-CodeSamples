@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2658BE0C137E8BF500CD2E27 /* CTLease.m in Sources */ = {isa = PBXBuildFile; fileRef = 2658BE0B137E8BF500CD2E27 /* CTLease.m */; };
+		2658BE10137E8CE900CD2E27 /* CTPeriodicLease.m in Sources */ = {isa = PBXBuildFile; fileRef = 2658BE0F137E8CE900CD2E27 /* CTPeriodicLease.m */; };
+		2658BE13137E8DF000CD2E27 /* CTFixedLease.m in Sources */ = {isa = PBXBuildFile; fileRef = 2658BE12137E8DF000CD2E27 /* CTFixedLease.m */; };
+		267B287313797BE200369355 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267B287213797BE200369355 /* UIKit.framework */; };
+		267B287513797BE200369355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267B287413797BE200369355 /* Foundation.framework */; };
+		267B287713797BE200369355 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267B287613797BE200369355 /* CoreGraphics.framework */; };
+		267B287D13797BE200369355 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267B287B13797BE200369355 /* InfoPlist.strings */; };
+		267B288013797BE200369355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267B287F13797BE200369355 /* main.m */; };
+		267B288313797BE200369355 /* RentalManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267B288213797BE200369355 /* RentalManagerAppDelegate.m */; };
+		267B288613797BE200369355 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267B288413797BE200369355 /* MainWindow.xib */; };
+		267B288913797BE200369355 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267B288813797BE200369355 /* RootViewController.m */; };
+		267B288C13797BE200369355 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267B288A13797BE200369355 /* RootViewController.xib */; };
+		26ACA4E813798D9700765B85 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ACA4E513798D9700765B85 /* city.png */; };
+		26ACA4E913798D9700765B85 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ACA4E613798D9700765B85 /* mountain.png */; };
+		26ACA4EA13798D9700765B85 /* sea.png in Resources */ = {isa = PBXBuildFile; fileRef = 26ACA4E713798D9700765B85 /* sea.png */; };
+		26AEC9161379A3A300264B8A /* CityMappings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26AEC9151379A3A300264B8A /* CityMappings.plist */; };
+		26B2CCE4137A02DC00A1B862 /* CTRentalProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B2CCE3137A02DC00A1B862 /* CTRentalProperty.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2658BE0A137E8BF500CD2E27 /* CTLease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLease.h; sourceTree = "<group>"; };
+		2658BE0B137E8BF500CD2E27 /* CTLease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLease.m; sourceTree = "<group>"; };
+		2658BE0E137E8CE900CD2E27 /* CTPeriodicLease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPeriodicLease.h; sourceTree = "<group>"; };
+		2658BE0F137E8CE900CD2E27 /* CTPeriodicLease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPeriodicLease.m; sourceTree = "<group>"; };
+		2658BE11137E8DF000CD2E27 /* CTFixedLease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFixedLease.h; sourceTree = "<group>"; };
+		2658BE12137E8DF000CD2E27 /* CTFixedLease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFixedLease.m; sourceTree = "<group>"; };
+		267B286E13797BE200369355 /* RentalManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentalManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		267B287213797BE200369355 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		267B287413797BE200369355 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		267B287613797BE200369355 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		267B287A13797BE200369355 /* RentalManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RentalManager-Info.plist"; sourceTree = "<group>"; };
+		267B287C13797BE200369355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		267B287E13797BE200369355 /* RentalManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RentalManager-Prefix.pch"; sourceTree = "<group>"; };
+		267B287F13797BE200369355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		267B288113797BE200369355 /* RentalManagerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalManagerAppDelegate.h; sourceTree = "<group>"; };
+		267B288213797BE200369355 /* RentalManagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalManagerAppDelegate.m; sourceTree = "<group>"; };
+		267B288513797BE200369355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		267B288713797BE200369355 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		267B288813797BE200369355 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		267B288B13797BE200369355 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		26ACA4E513798D9700765B85 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
+		26ACA4E613798D9700765B85 /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
+		26ACA4E713798D9700765B85 /* sea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sea.png; sourceTree = "<group>"; };
+		26AEC9151379A3A300264B8A /* CityMappings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityMappings.plist; sourceTree = "<group>"; };
+		26B2CCE2137A02DC00A1B862 /* CTRentalProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTRentalProperty.h; sourceTree = "<group>"; };
+		26B2CCE3137A02DC00A1B862 /* CTRentalProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTRentalProperty.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267B286B13797BE200369355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267B287313797BE200369355 /* UIKit.framework in Frameworks */,
+				267B287513797BE200369355 /* Foundation.framework in Frameworks */,
+				267B287713797BE200369355 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267B286313797BE200369355 = {
+			isa = PBXGroup;
+			children = (
+				267B287813797BE200369355 /* RentalManager */,
+				267B287113797BE200369355 /* Frameworks */,
+				267B286F13797BE200369355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267B286F13797BE200369355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267B286E13797BE200369355 /* RentalManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267B287113797BE200369355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				267B287213797BE200369355 /* UIKit.framework */,
+				267B287413797BE200369355 /* Foundation.framework */,
+				267B287613797BE200369355 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		267B287813797BE200369355 /* RentalManager */ = {
+			isa = PBXGroup;
+			children = (
+				267B288113797BE200369355 /* RentalManagerAppDelegate.h */,
+				267B288213797BE200369355 /* RentalManagerAppDelegate.m */,
+				267B288413797BE200369355 /* MainWindow.xib */,
+				267B288713797BE200369355 /* RootViewController.h */,
+				267B288813797BE200369355 /* RootViewController.m */,
+				26B2CCE2137A02DC00A1B862 /* CTRentalProperty.h */,
+				26B2CCE3137A02DC00A1B862 /* CTRentalProperty.m */,
+				26AEC9151379A3A300264B8A /* CityMappings.plist */,
+				267B288A13797BE200369355 /* RootViewController.xib */,
+				2658BE0A137E8BF500CD2E27 /* CTLease.h */,
+				2658BE0B137E8BF500CD2E27 /* CTLease.m */,
+				2658BE0E137E8CE900CD2E27 /* CTPeriodicLease.h */,
+				2658BE0F137E8CE900CD2E27 /* CTPeriodicLease.m */,
+				2658BE11137E8DF000CD2E27 /* CTFixedLease.h */,
+				2658BE12137E8DF000CD2E27 /* CTFixedLease.m */,
+				267B287913797BE200369355 /* Supporting Files */,
+			);
+			path = RentalManager;
+			sourceTree = "<group>";
+		};
+		267B287913797BE200369355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26ACA4E513798D9700765B85 /* city.png */,
+				26ACA4E613798D9700765B85 /* mountain.png */,
+				26ACA4E713798D9700765B85 /* sea.png */,
+				267B287A13797BE200369355 /* RentalManager-Info.plist */,
+				267B287B13797BE200369355 /* InfoPlist.strings */,
+				267B287E13797BE200369355 /* RentalManager-Prefix.pch */,
+				267B287F13797BE200369355 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267B286D13797BE200369355 /* RentalManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267B288F13797BE200369355 /* Build configuration list for PBXNativeTarget "RentalManager" */;
+			buildPhases = (
+				267B286A13797BE200369355 /* Sources */,
+				267B286B13797BE200369355 /* Frameworks */,
+				267B286C13797BE200369355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentalManager;
+			productName = RentalManager;
+			productReference = 267B286E13797BE200369355 /* RentalManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267B286513797BE200369355 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 267B286813797BE200369355 /* Build configuration list for PBXProject "RentalManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 267B286313797BE200369355;
+			productRefGroup = 267B286F13797BE200369355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267B286D13797BE200369355 /* RentalManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267B286C13797BE200369355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267B287D13797BE200369355 /* InfoPlist.strings in Resources */,
+				267B288613797BE200369355 /* MainWindow.xib in Resources */,
+				267B288C13797BE200369355 /* RootViewController.xib in Resources */,
+				26ACA4E813798D9700765B85 /* city.png in Resources */,
+				26ACA4E913798D9700765B85 /* mountain.png in Resources */,
+				26ACA4EA13798D9700765B85 /* sea.png in Resources */,
+				26AEC9161379A3A300264B8A /* CityMappings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267B286A13797BE200369355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267B288013797BE200369355 /* main.m in Sources */,
+				267B288313797BE200369355 /* RentalManagerAppDelegate.m in Sources */,
+				267B288913797BE200369355 /* RootViewController.m in Sources */,
+				26B2CCE4137A02DC00A1B862 /* CTRentalProperty.m in Sources */,
+				2658BE0C137E8BF500CD2E27 /* CTLease.m in Sources */,
+				2658BE10137E8CE900CD2E27 /* CTPeriodicLease.m in Sources */,
+				2658BE13137E8DF000CD2E27 /* CTFixedLease.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		267B287B13797BE200369355 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267B287C13797BE200369355 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		267B288413797BE200369355 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267B288513797BE200369355 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		267B288A13797BE200369355 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267B288B13797BE200369355 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		267B288D13797BE200369355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		267B288E13797BE200369355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		267B289013797BE200369355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentalManager/RentalManager-Prefix.pch";
+				INFOPLIST_FILE = "RentalManager/RentalManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		267B289113797BE200369355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RentalManager/RentalManager-Prefix.pch";
+				INFOPLIST_FILE = "RentalManager/RentalManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267B286813797BE200369355 /* Build configuration list for PBXProject "RentalManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267B288D13797BE200369355 /* Debug */,
+				267B288E13797BE200369355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267B288F13797BE200369355 /* Build configuration list for PBXNativeTarget "RentalManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267B289013797BE200369355 /* Debug */,
+				267B289113797BE200369355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267B286513797BE200369355 /* Project object */;
+}
