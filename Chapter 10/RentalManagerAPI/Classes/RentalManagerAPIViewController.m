@@ -27,7 +27,7 @@
 		[av show];
 		[av release];
 	} else {
-		NSString *message;
+		NSString *message = nil;
 		if ([error domain] == RMAErrorDomain) {
 			switch ([error code]) {
 				case RMAValidationError:
