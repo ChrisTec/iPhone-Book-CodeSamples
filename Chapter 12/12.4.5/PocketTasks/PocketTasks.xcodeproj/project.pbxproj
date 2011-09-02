@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268A72C3138557B9002C2FA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268A72C2138557B9002C2FA2 /* UIKit.framework */; };
+		268A72C5138557B9002C2FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268A72C4138557B9002C2FA2 /* Foundation.framework */; };
+		268A72C7138557B9002C2FA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268A72C6138557B9002C2FA2 /* CoreGraphics.framework */; };
+		268A72C9138557B9002C2FA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268A72C8138557B9002C2FA2 /* CoreData.framework */; };
+		268A72CF138557B9002C2FA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 268A72CD138557B9002C2FA2 /* InfoPlist.strings */; };
+		268A72D2138557B9002C2FA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A72D1138557B9002C2FA2 /* main.m */; };
+		268A72D5138557B9002C2FA2 /* PocketTasksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268A72D4138557B9002C2FA2 /* PocketTasksAppDelegate.m */; };
+		268A72D8138557B9002C2FA2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 268A72D6138557B9002C2FA2 /* MainWindow.xib */; };
+		268A72DB138557B9002C2FA2 /* PocketTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 268A72D9138557B9002C2FA2 /* PocketTasks.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		268A72BE138557B9002C2FA2 /* PocketTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268A72C2138557B9002C2FA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		268A72C4138557B9002C2FA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		268A72C6138557B9002C2FA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		268A72C8138557B9002C2FA2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		268A72CC138557B9002C2FA2 /* PocketTasks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketTasks-Info.plist"; sourceTree = "<group>"; };
+		268A72CE138557B9002C2FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		268A72D0138557B9002C2FA2 /* PocketTasks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketTasks-Prefix.pch"; sourceTree = "<group>"; };
+		268A72D1138557B9002C2FA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		268A72D3138557B9002C2FA2 /* PocketTasksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketTasksAppDelegate.h; sourceTree = "<group>"; };
+		268A72D4138557B9002C2FA2 /* PocketTasksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketTasksAppDelegate.m; sourceTree = "<group>"; };
+		268A72D7138557B9002C2FA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		268A72DA138557B9002C2FA2 /* PocketTasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketTasks.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268A72BB138557B9002C2FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268A72C3138557B9002C2FA2 /* UIKit.framework in Frameworks */,
+				268A72C5138557B9002C2FA2 /* Foundation.framework in Frameworks */,
+				268A72C7138557B9002C2FA2 /* CoreGraphics.framework in Frameworks */,
+				268A72C9138557B9002C2FA2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268A72B3138557B9002C2FA2 = {
+			isa = PBXGroup;
+			children = (
+				268A72CA138557B9002C2FA2 /* PocketTasks */,
+				268A72C1138557B9002C2FA2 /* Frameworks */,
+				268A72BF138557B9002C2FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268A72BF138557B9002C2FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268A72BE138557B9002C2FA2 /* PocketTasks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268A72C1138557B9002C2FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				268A72C2138557B9002C2FA2 /* UIKit.framework */,
+				268A72C4138557B9002C2FA2 /* Foundation.framework */,
+				268A72C6138557B9002C2FA2 /* CoreGraphics.framework */,
+				268A72C8138557B9002C2FA2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		268A72CA138557B9002C2FA2 /* PocketTasks */ = {
+			isa = PBXGroup;
+			children = (
+				268A72D3138557B9002C2FA2 /* PocketTasksAppDelegate.h */,
+				268A72D4138557B9002C2FA2 /* PocketTasksAppDelegate.m */,
+				268A72D6138557B9002C2FA2 /* MainWindow.xib */,
+				268A72D9138557B9002C2FA2 /* PocketTasks.xcdatamodeld */,
+				268A72CB138557B9002C2FA2 /* Supporting Files */,
+			);
+			path = PocketTasks;
+			sourceTree = "<group>";
+		};
+		268A72CB138557B9002C2FA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				268A72CC138557B9002C2FA2 /* PocketTasks-Info.plist */,
+				268A72CD138557B9002C2FA2 /* InfoPlist.strings */,
+				268A72D0138557B9002C2FA2 /* PocketTasks-Prefix.pch */,
+				268A72D1138557B9002C2FA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268A72BD138557B9002C2FA2 /* PocketTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268A72DE138557B9002C2FA2 /* Build configuration list for PBXNativeTarget "PocketTasks" */;
+			buildPhases = (
+				268A72BA138557B9002C2FA2 /* Sources */,
+				268A72BB138557B9002C2FA2 /* Frameworks */,
+				268A72BC138557B9002C2FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketTasks;
+			productName = PocketTasks;
+			productReference = 268A72BE138557B9002C2FA2 /* PocketTasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268A72B5138557B9002C2FA2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 268A72B8138557B9002C2FA2 /* Build configuration list for PBXProject "PocketTasks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 268A72B3138557B9002C2FA2;
+			productRefGroup = 268A72BF138557B9002C2FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268A72BD138557B9002C2FA2 /* PocketTasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268A72BC138557B9002C2FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268A72CF138557B9002C2FA2 /* InfoPlist.strings in Resources */,
+				268A72D8138557B9002C2FA2 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268A72BA138557B9002C2FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268A72D2138557B9002C2FA2 /* main.m in Sources */,
+				268A72D5138557B9002C2FA2 /* PocketTasksAppDelegate.m in Sources */,
+				268A72DB138557B9002C2FA2 /* PocketTasks.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		268A72CD138557B9002C2FA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268A72CE138557B9002C2FA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		268A72D6138557B9002C2FA2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268A72D7138557B9002C2FA2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268A72DC138557B9002C2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		268A72DD138557B9002C2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		268A72DF138557B9002C2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketTasks/PocketTasks-Prefix.pch";
+				INFOPLIST_FILE = "PocketTasks/PocketTasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		268A72E0138557B9002C2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketTasks/PocketTasks-Prefix.pch";
+				INFOPLIST_FILE = "PocketTasks/PocketTasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268A72B8138557B9002C2FA2 /* Build configuration list for PBXProject "PocketTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268A72DC138557B9002C2FA2 /* Debug */,
+				268A72DD138557B9002C2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268A72DE138557B9002C2FA2 /* Build configuration list for PBXNativeTarget "PocketTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268A72DF138557B9002C2FA2 /* Debug */,
+				268A72E0138557B9002C2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		268A72D9138557B9002C2FA2 /* PocketTasks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				268A72DA138557B9002C2FA2 /* PocketTasks.xcdatamodel */,
+			);
+			currentVersion = 268A72DA138557B9002C2FA2 /* PocketTasks.xcdatamodel */;
+			path = PocketTasks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 268A72B5138557B9002C2FA2 /* Project object */;
+}

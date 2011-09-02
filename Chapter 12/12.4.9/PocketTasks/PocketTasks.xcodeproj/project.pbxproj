@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2619818F137CB9BA007BEA66 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619818E137CB9BA007BEA66 /* PeopleViewController.m */; };
+		2628312D137CC0AA0009A9B4 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2628312B137CC0AA0009A9B4 /* PersonDetailViewController.m */; };
+		2628312E137CC0AA0009A9B4 /* PersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2628312C137CC0AA0009A9B4 /* PersonDetailViewController.xib */; };
+		26283147137CCA3B0009A9B4 /* TasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26283146137CCA3A0009A9B4 /* TasksViewController.m */; };
+		26AF505F137CAAAD003F672B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AF505E137CAAAD003F672B /* UIKit.framework */; };
+		26AF5061137CAAAD003F672B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AF5060137CAAAD003F672B /* Foundation.framework */; };
+		26AF5063137CAAAD003F672B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AF5062137CAAAD003F672B /* CoreGraphics.framework */; };
+		26AF5065137CAAAD003F672B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AF5064137CAAAD003F672B /* CoreData.framework */; };
+		26AF506B137CAAAD003F672B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26AF5069137CAAAD003F672B /* InfoPlist.strings */; };
+		26AF506E137CAAAD003F672B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF506D137CAAAD003F672B /* main.m */; };
+		26AF5071137CAAAD003F672B /* PocketTasksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AF5070137CAAAD003F672B /* PocketTasksAppDelegate.m */; };
+		26AF5074137CAAAD003F672B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26AF5072137CAAAD003F672B /* MainWindow.xib */; };
+		26AF5077137CAAAD003F672B /* PocketTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26AF5075137CAAAD003F672B /* PocketTasks.xcdatamodeld */; };
+		26B5477E137CD44B0028F771 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B5477D137CD44B0028F771 /* Task.m */; };
+		26B54781137CD44C0028F771 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B54780137CD44C0028F771 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2619818D137CB9BA007BEA66 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		2619818E137CB9BA007BEA66 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		2628312A137CC0AA0009A9B4 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailViewController.h; path = PocketTasks.xcodeproj/PersonDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		2628312B137CC0AA0009A9B4 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailViewController.m; path = PocketTasks.xcodeproj/PersonDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		2628312C137CC0AA0009A9B4 /* PersonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonDetailViewController.xib; path = PocketTasks.xcodeproj/PersonDetailViewController.xib; sourceTree = SOURCE_ROOT; };
+		26283145137CCA3A0009A9B4 /* TasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TasksViewController.h; path = PocketTasks.xcodeproj/TasksViewController.h; sourceTree = SOURCE_ROOT; };
+		26283146137CCA3A0009A9B4 /* TasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TasksViewController.m; path = PocketTasks.xcodeproj/TasksViewController.m; sourceTree = SOURCE_ROOT; };
+		26AF505A137CAAAD003F672B /* PocketTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AF505E137CAAAD003F672B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26AF5060137CAAAD003F672B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26AF5062137CAAAD003F672B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26AF5064137CAAAD003F672B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		26AF5068137CAAAD003F672B /* PocketTasks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketTasks-Info.plist"; sourceTree = "<group>"; };
+		26AF506A137CAAAD003F672B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26AF506C137CAAAD003F672B /* PocketTasks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketTasks-Prefix.pch"; sourceTree = "<group>"; };
+		26AF506D137CAAAD003F672B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26AF506F137CAAAD003F672B /* PocketTasksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PocketTasksAppDelegate.h; sourceTree = "<group>"; };
+		26AF5070137CAAAD003F672B /* PocketTasksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketTasksAppDelegate.m; sourceTree = "<group>"; };
+		26AF5073137CAAAD003F672B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		26AF5076137CAAAD003F672B /* PocketTasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketTasks.xcdatamodel; sourceTree = "<group>"; };
+		26B5477C137CD44B0028F771 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		26B5477D137CD44B0028F771 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		26B5477F137CD44C0028F771 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		26B54780137CD44C0028F771 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26AF5057137CAAAD003F672B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AF505F137CAAAD003F672B /* UIKit.framework in Frameworks */,
+				26AF5061137CAAAD003F672B /* Foundation.framework in Frameworks */,
+				26AF5063137CAAAD003F672B /* CoreGraphics.framework in Frameworks */,
+				26AF5065137CAAAD003F672B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26AF504F137CAAAD003F672B = {
+			isa = PBXGroup;
+			children = (
+				26AF5066137CAAAD003F672B /* PocketTasks */,
+				26AF505D137CAAAD003F672B /* Frameworks */,
+				26AF505B137CAAAD003F672B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26AF505B137CAAAD003F672B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26AF505A137CAAAD003F672B /* PocketTasks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26AF505D137CAAAD003F672B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26AF505E137CAAAD003F672B /* UIKit.framework */,
+				26AF5060137CAAAD003F672B /* Foundation.framework */,
+				26AF5062137CAAAD003F672B /* CoreGraphics.framework */,
+				26AF5064137CAAAD003F672B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26AF5066137CAAAD003F672B /* PocketTasks */ = {
+			isa = PBXGroup;
+			children = (
+				26AF506F137CAAAD003F672B /* PocketTasksAppDelegate.h */,
+				26AF5070137CAAAD003F672B /* PocketTasksAppDelegate.m */,
+				2619818D137CB9BA007BEA66 /* PeopleViewController.h */,
+				2619818E137CB9BA007BEA66 /* PeopleViewController.m */,
+				2628312A137CC0AA0009A9B4 /* PersonDetailViewController.h */,
+				2628312B137CC0AA0009A9B4 /* PersonDetailViewController.m */,
+				2628312C137CC0AA0009A9B4 /* PersonDetailViewController.xib */,
+				26283145137CCA3A0009A9B4 /* TasksViewController.h */,
+				26283146137CCA3A0009A9B4 /* TasksViewController.m */,
+				26B5477F137CD44C0028F771 /* Person.h */,
+				26B54780137CD44C0028F771 /* Person.m */,
+				26B5477C137CD44B0028F771 /* Task.h */,
+				26B5477D137CD44B0028F771 /* Task.m */,
+				26AF5072137CAAAD003F672B /* MainWindow.xib */,
+				26AF5075137CAAAD003F672B /* PocketTasks.xcdatamodeld */,
+				26AF5067137CAAAD003F672B /* Supporting Files */,
+			);
+			path = PocketTasks;
+			sourceTree = "<group>";
+		};
+		26AF5067137CAAAD003F672B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26AF5068137CAAAD003F672B /* PocketTasks-Info.plist */,
+				26AF5069137CAAAD003F672B /* InfoPlist.strings */,
+				26AF506C137CAAAD003F672B /* PocketTasks-Prefix.pch */,
+				26AF506D137CAAAD003F672B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26AF5059137CAAAD003F672B /* PocketTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AF507A137CAAAD003F672B /* Build configuration list for PBXNativeTarget "PocketTasks" */;
+			buildPhases = (
+				26AF5056137CAAAD003F672B /* Sources */,
+				26AF5057137CAAAD003F672B /* Frameworks */,
+				26AF5058137CAAAD003F672B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketTasks;
+			productName = PocketTasks;
+			productReference = 26AF505A137CAAAD003F672B /* PocketTasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26AF5051137CAAAD003F672B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26AF5054137CAAAD003F672B /* Build configuration list for PBXProject "PocketTasks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26AF504F137CAAAD003F672B;
+			productRefGroup = 26AF505B137CAAAD003F672B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26AF5059137CAAAD003F672B /* PocketTasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26AF5058137CAAAD003F672B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AF506B137CAAAD003F672B /* InfoPlist.strings in Resources */,
+				26AF5074137CAAAD003F672B /* MainWindow.xib in Resources */,
+				2628312E137CC0AA0009A9B4 /* PersonDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26AF5056137CAAAD003F672B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26AF506E137CAAAD003F672B /* main.m in Sources */,
+				26AF5071137CAAAD003F672B /* PocketTasksAppDelegate.m in Sources */,
+				26AF5077137CAAAD003F672B /* PocketTasks.xcdatamodeld in Sources */,
+				2619818F137CB9BA007BEA66 /* PeopleViewController.m in Sources */,
+				2628312D137CC0AA0009A9B4 /* PersonDetailViewController.m in Sources */,
+				26283147137CCA3B0009A9B4 /* TasksViewController.m in Sources */,
+				26B5477E137CD44B0028F771 /* Task.m in Sources */,
+				26B54781137CD44C0028F771 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26AF5069137CAAAD003F672B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26AF506A137CAAAD003F672B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26AF5072137CAAAD003F672B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26AF5073137CAAAD003F672B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26AF5078137CAAAD003F672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26AF5079137CAAAD003F672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		26AF507B137CAAAD003F672B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketTasks/PocketTasks-Prefix.pch";
+				INFOPLIST_FILE = "PocketTasks/PocketTasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26AF507C137CAAAD003F672B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketTasks/PocketTasks-Prefix.pch";
+				INFOPLIST_FILE = "PocketTasks/PocketTasks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26AF5054137CAAAD003F672B /* Build configuration list for PBXProject "PocketTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AF5078137CAAAD003F672B /* Debug */,
+				26AF5079137CAAAD003F672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AF507A137CAAAD003F672B /* Build configuration list for PBXNativeTarget "PocketTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26AF507B137CAAAD003F672B /* Debug */,
+				26AF507C137CAAAD003F672B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26AF5075137CAAAD003F672B /* PocketTasks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26AF5076137CAAAD003F672B /* PocketTasks.xcdatamodel */,
+			);
+			currentVersion = 26AF5076137CAAAD003F672B /* PocketTasks.xcdatamodel */;
+			path = PocketTasks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26AF5051137CAAAD003F672B /* Project object */;
+}
