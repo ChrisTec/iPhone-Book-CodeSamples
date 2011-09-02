@@ -1,0 +1,12 @@
+<Author>
+    <name>Collin Ruffenach</name>
+    <age>23</age>
+    <gender>male</gender>
+    <Books>
+        <Book>
+            <title>Objective C for the iPhone</title>
+            <year>2010</year>
+            <level>intermediate</level>
+        </Book>
+    </Books>
+</Author>

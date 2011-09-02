@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A852511384A43C00136CEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A852501384A43C00136CEB /* UIKit.framework */; };
+		26A852531384A43C00136CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A852521384A43C00136CEB /* Foundation.framework */; };
+		26A852551384A43C00136CEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A852541384A43C00136CEB /* CoreGraphics.framework */; };
+		26A8525B1384A43C00136CEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26A852591384A43C00136CEB /* InfoPlist.strings */; };
+		26A8525E1384A43C00136CEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8525D1384A43C00136CEB /* main.m */; };
+		26A852611384A43C00136CEB /* myProtocolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A852601384A43C00136CEB /* myProtocolAppDelegate.m */; };
+		26A852641384A43C00136CEB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A852621384A43C00136CEB /* MainWindow.xib */; };
+		26A8526C1384A4CF00136CEB /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8526B1384A4CF00136CEB /* myView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A8524C1384A43C00136CEB /* myProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A852501384A43C00136CEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26A852521384A43C00136CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26A852541384A43C00136CEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26A852581384A43C00136CEB /* myProtocol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myProtocol-Info.plist"; sourceTree = "<group>"; };
+		26A8525A1384A43C00136CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26A8525C1384A43C00136CEB /* myProtocol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myProtocol-Prefix.pch"; sourceTree = "<group>"; };
+		26A8525D1384A43C00136CEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26A8525F1384A43C00136CEB /* myProtocolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myProtocolAppDelegate.h; sourceTree = "<group>"; };
+		26A852601384A43C00136CEB /* myProtocolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myProtocolAppDelegate.m; sourceTree = "<group>"; };
+		26A852631384A43C00136CEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		26A8526A1384A4CF00136CEB /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		26A8526B1384A4CF00136CEB /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A852491384A43C00136CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A852511384A43C00136CEB /* UIKit.framework in Frameworks */,
+				26A852531384A43C00136CEB /* Foundation.framework in Frameworks */,
+				26A852551384A43C00136CEB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A852411384A43C00136CEB = {
+			isa = PBXGroup;
+			children = (
+				26A852561384A43C00136CEB /* myProtocol */,
+				26A8524F1384A43C00136CEB /* Frameworks */,
+				26A8524D1384A43C00136CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A8524D1384A43C00136CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A8524C1384A43C00136CEB /* myProtocol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A8524F1384A43C00136CEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A852501384A43C00136CEB /* UIKit.framework */,
+				26A852521384A43C00136CEB /* Foundation.framework */,
+				26A852541384A43C00136CEB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A852561384A43C00136CEB /* myProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				26A8525F1384A43C00136CEB /* myProtocolAppDelegate.h */,
+				26A852601384A43C00136CEB /* myProtocolAppDelegate.m */,
+				26A852621384A43C00136CEB /* MainWindow.xib */,
+				26A852571384A43C00136CEB /* Supporting Files */,
+				26A8526A1384A4CF00136CEB /* myView.h */,
+				26A8526B1384A4CF00136CEB /* myView.m */,
+			);
+			path = myProtocol;
+			sourceTree = "<group>";
+		};
+		26A852571384A43C00136CEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A852581384A43C00136CEB /* myProtocol-Info.plist */,
+				26A852591384A43C00136CEB /* InfoPlist.strings */,
+				26A8525C1384A43C00136CEB /* myProtocol-Prefix.pch */,
+				26A8525D1384A43C00136CEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A8524B1384A43C00136CEB /* myProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A852671384A43C00136CEB /* Build configuration list for PBXNativeTarget "myProtocol" */;
+			buildPhases = (
+				26A852481384A43C00136CEB /* Sources */,
+				26A852491384A43C00136CEB /* Frameworks */,
+				26A8524A1384A43C00136CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myProtocol;
+			productName = myProtocol;
+			productReference = 26A8524C1384A43C00136CEB /* myProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A852431384A43C00136CEB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26A852461384A43C00136CEB /* Build configuration list for PBXProject "myProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26A852411384A43C00136CEB;
+			productRefGroup = 26A8524D1384A43C00136CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A8524B1384A43C00136CEB /* myProtocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A8524A1384A43C00136CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A8525B1384A43C00136CEB /* InfoPlist.strings in Resources */,
+				26A852641384A43C00136CEB /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A852481384A43C00136CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A8525E1384A43C00136CEB /* main.m in Sources */,
+				26A852611384A43C00136CEB /* myProtocolAppDelegate.m in Sources */,
+				26A8526C1384A4CF00136CEB /* myView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26A852591384A43C00136CEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A8525A1384A43C00136CEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26A852621384A43C00136CEB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A852631384A43C00136CEB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A852651384A43C00136CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26A852661384A43C00136CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		26A852681384A43C00136CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myProtocol/myProtocol-Prefix.pch";
+				INFOPLIST_FILE = "myProtocol/myProtocol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26A852691384A43C00136CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myProtocol/myProtocol-Prefix.pch";
+				INFOPLIST_FILE = "myProtocol/myProtocol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A852461384A43C00136CEB /* Build configuration list for PBXProject "myProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A852651384A43C00136CEB /* Debug */,
+				26A852661384A43C00136CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A852671384A43C00136CEB /* Build configuration list for PBXNativeTarget "myProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A852681384A43C00136CEB /* Debug */,
+				26A852691384A43C00136CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A852431384A43C00136CEB /* Project object */;
+}

@@ -1,1190 +1,0 @@
-TRentalManager
-v7
-r0
-t297558292.010414
-cCheck dependencies
-cProcessInfoPlistFile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist RentalManager-Info.plist
-cCompileXIB /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/MainWindow.xib
-cCompileXIB /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/RootViewController.xib
-cCpResource build/Debug-iphonesimulator/RentalManager.app/city.png city.png
-cCpResource build/Debug-iphonesimulator/RentalManager.app/mountain.png mountain.png
-cCpResource build/Debug-iphonesimulator/RentalManager.app/sea.png sea.png
-cCopyPlistFile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist CityMappings.plist
-cProcessPCH /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch.gch RentalManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/ImportantRentalPropertyCell.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager normal i386
-cGenerateDSYMFile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-cTouch /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
-c000000004A9F670A00000000000000EE
-t1251960586
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004A821911000000000026EE30
-t1250040081
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A765094000000000027E880
-t1249267860
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A7650820000000000001355
-t1249267842
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004A7C6E970000000000000788
-t1249668759
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004A7C6F5900000000016721E0
-t1249668953
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/include/Availability.h
-c000000004A7653D100000000000019F9
-t1249268689
-s6649
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/CityMappings.plist
-c000000004C0C1F3E0000000000000181
-t1275862846
-s385
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTFixedTermLease.h
-c000000004C0C20B900000000000001E6
-t1275863225
-s486
-i"CTLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTFixedTermLease.m
-c000000004C0C202C000000000000027E
-t1275863084
-s638
-i"CTFixedTermLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTLease.h
-c000000004C0C202C000000000000018E
-t1275863084
-s398
-i<Foundation/Foundation.h>
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTLease.m
-c000000004C0C202C0000000000000276
-t1275863084
-s630
-i"CTLease.h"
-i"CTPeriodicLease.h"
-i"CTFixedTermLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTPeriodicLease.h
-c000000004C0C208C00000000000001A6
-t1275863180
-s422
-i"CTLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTPeriodicLease.m
-c000000004C0C202C0000000000000215
-t1275863084
-s533
-i"CTPeriodicLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.h
-c000000004C0C20D7000000000000035A
-t1275863255
-s858
-i<Foundation/Foundation.h>
-i"CTLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m
-c000000004C0C211500000000000003CC
-t1275863317
-s972
-i"CTRentalProperty.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.h
-c000000004C0C1F3E00000000000001D5
-t1275862846
-s469
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m
-c000000004C0C1F3E0000000000000357
-t1275862846
-s855
-i"RentalManagerAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.h
-c000000004C0C1F8C0000000000000196
-t1275862924
-s406
-i<UIKit/UIKit.h>
-i"CTRentalProperty.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m
-c000000004C0C21580000000000000EF4
-t1275863384
-s3828
-i"RentalPropertyCell.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.h
-c000000004C0C1F3E0000000000000116
-t1275862846
-s278
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m
-c000000004C0C20AB0000000000000CCC
-t1275863211
-s3276
-i"RootViewController.h"
-i"CTRentalProperty.h"
-i"RentalPropertyCell.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/MainWindow.xib
-c000000004C0C1F3E0000000000002C79
-t1275862846
-s11385
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/RentalManager_Prefix.pch
-c000000004C0C1F3E000000000000014C
-t1275862846
-s332
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/RootViewController.xib
-c000000004C0C1F3E0000000000004327
-t1275862846
-s17191
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-t1275863384
-s374
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM
-t1275863384
-s102
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist
-t1275862924
-s125
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist
-t1275862924
-s615
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/MainWindow.nib
-t1275862924
-s1485
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/PkgInfo
-t1275862924
-s8
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-t1275863384
-s34864
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RootViewController.nib
-t1275862924
-s984
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/city.png
-t1275862924
-s26836
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/mountain.png
-t1275862924
-s29857
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/sea.png
-t1275862924
-s24862
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o
-t1275863226
-s9236
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o
-t1275863226
-s7200
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o
-t1275863226
-s8264
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o
-t1275863317
-s11532
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManager.LinkFileList
-c000000004C0C20B9000000000000052E
-t1275863225
-s1326
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o
-t1275862946
-s40004
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o
-t1275863384
-s28356
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o
-t1275863256
-s35748
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o
-t1275862946
-s5984
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/city.png
-c000000004C0C1F3E00000000000068D4
-t1275862846
-s26836
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m
-c000000004C0C1F3E0000000000000178
-t1275862846
-s376
-i<UIKit/UIKit.h>
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/mountain.png
-c000000004C0C1F3E00000000000074A1
-t1275862846
-s29857
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/sea.png
-c000000004C0C1F3E000000000000611E
-t1275862846
-s24862
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/CityMappings.plist
-c000000004C0C257C0000000000000181
-t1275864444
-s385
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.h
-c000000004C0C257C00000000000001E6
-t1275864444
-s486
-i"CTLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.m
-c000000004C0C257C000000000000027E
-t1275864444
-s638
-i"CTFixedTermLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.h
-c000000004C0C257C000000000000018E
-t1275864444
-s398
-i<Foundation/Foundation.h>
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.m
-c000000004C0C257C0000000000000276
-t1275864444
-s630
-i"CTLease.h"
-i"CTPeriodicLease.h"
-i"CTFixedTermLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.h
-c000000004C0C257C00000000000001A6
-t1275864444
-s422
-i"CTLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.m
-c000000004C0C257C0000000000000215
-t1275864444
-s533
-i"CTPeriodicLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.h
-c000000004C0C257C000000000000035A
-t1275864444
-s858
-i<Foundation/Foundation.h>
-i"CTLease.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.m
-c000000004C0C257C00000000000003CC
-t1275864444
-s972
-i"CTRentalProperty.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.h
-c000000004C0C26EE00000000000001D8
-t1275864814
-s472
-i<UIKit/UIKit.h>
-i"CTRentalProperty.h"
-i"RentalPropertyContext.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.m
-c000000004C0C27EA0000000000000EE5
-t1275865066
-s3813
-i"ImportantRentalPropertyCell.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.h
-c000000004C0C257C00000000000001D5
-t1275864444
-s469
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.m
-c000000004C0C257C0000000000000357
-t1275864444
-s855
-i"RentalManagerAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.h
-c000000004C0C26EE00000000000001CF
-t1275864814
-s463
-i<UIKit/UIKit.h>
-i"CTRentalProperty.h"
-i"RentalPropertyContext.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.m
-c000000004C0C257C0000000000000EF4
-t1275864444
-s3828
-i"RentalPropertyCell.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyContext.h
-c000000004C0C27620000000000000118
-t1275864930
-s280
-i<Foundation/Foundation.h>
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.h
-c000000004C0C257C0000000000000116
-t1275864444
-s278
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.m
-c000000004C0C29930000000000000C49
-t1275865491
-s3145
-i"RootViewController.h"
-i"CTRentalProperty.h"
-i"RentalPropertyCell.h"
-i"ImportantRentalPropertyCell.h"
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/MainWindow.xib
-c000000004C0C257C0000000000002C79
-t1275864444
-s11385
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/RentalManager_Prefix.pch
-c000000004C0C257C000000000000014C
-t1275864444
-s332
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/RootViewController.xib
-c000000004C0C257C0000000000004327
-t1275864444
-s17191
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-t1275865492
-s374
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM
-t1275865492
-s102
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist
-t1275864444
-s125
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist
-t1275864444
-s615
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/MainWindow.nib
-t1275864444
-s1485
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/PkgInfo
-t1275864444
-s8
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-t1275865491
-s40556
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RootViewController.nib
-t1275864444
-s984
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/city.png
-t1275864444
-s26836
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/mountain.png
-t1275864444
-s29857
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/sea.png
-t1275864444
-s24862
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o
-t1275864816
-s9236
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o
-t1275864816
-s7200
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o
-t1275864816
-s8264
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o
-t1275864816
-s11532
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/ImportantRentalPropertyCell.o
-t1275865066
-s28660
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManager.LinkFileList
-c000000004C0C26EE00000000000005E0
-t1275864814
-s1504
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o
-t1275864815
-s40004
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o
-t1275864930
-s28668
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o
-t1275865491
-s36544
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o
-t1275864815
-s5984
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/city.png
-c000000004C0C257C00000000000068D4
-t1275864444
-s26836
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/main.m
-c000000004C0C257C0000000000000178
-t1275864444
-s376
-i<UIKit/UIKit.h>
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/mountain.png
-c000000004C0C257C00000000000074A1
-t1275864444
-s29857
-
-N/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/sea.png
-c000000004C0C257C000000000000611E
-t1275864444
-s24862
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/CityMappings.plist
-c000000004C0C17110000000000000181
-t1275860753
-s385
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.h
-c000000004C0C171100000000000003CA
-t1275860753
-s970
-i<Foundation/Foundation.h>
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m
-c000000004C0C17110000000000000524
-t1275860753
-s1316
-i"CTRentalProperty.h"
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.h
-c000000004C0C171100000000000001D5
-t1275860753
-s469
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m
-c000000004C0C17110000000000000357
-t1275860753
-s855
-i"RentalManagerAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.h
-c000000004C0C1B850000000000000196
-t1275861893
-s406
-i<UIKit/UIKit.h>
-i"CTRentalProperty.h"
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m
-c000000004C0C1F300000000000000F24
-t1275862832
-s3876
-i"RentalPropertyCell.h"
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.h
-c000000004C0C17110000000000000116
-t1275860753
-s278
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m
-c000000004C0C1D420000000000000C3E
-t1275862338
-s3134
-i"RootViewController.h"
-i"CTRentalProperty.h"
-i"RentalPropertyCell.h"
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/MainWindow.xib
-c000000004C0C17110000000000002C79
-t1275860753
-s11385
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RentalManager_Prefix.pch
-c000000004C0C1711000000000000014C
-t1275860753
-s332
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RootViewController.xib
-c000000004C0C17110000000000004327
-t1275860753
-s17191
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-t1275862834
-s374
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM
-t1275862834
-s102
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist
-t1275861963
-s125
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist
-t1275861963
-s615
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/MainWindow.nib
-t1275861963
-s1485
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/PkgInfo
-t1275861963
-s8
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-t1275862834
-s32952
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RootViewController.nib
-t1275861963
-s984
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/city.png
-t1275861963
-s26836
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/mountain.png
-t1275861963
-s29857
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/sea.png
-t1275861963
-s24862
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o
-t1275861965
-s12728
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManager.LinkFileList
-c000000004C0C1BCB00000000000003F7
-t1275861963
-s1015
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o
-t1275861965
-s40076
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o
-t1275862834
-s28624
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o
-t1275862340
-s35192
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o
-t1275861965
-s6056
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/city.png
-c000000004C0C171100000000000068D4
-t1275860753
-s26836
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m
-c000000004C0C17110000000000000178
-t1275860753
-s376
-i<UIKit/UIKit.h>
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/mountain.png
-c000000004C0C171100000000000074A1
-t1275860753
-s29857
-
-N/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/sea.png
-c000000004C0C1711000000000000611E
-t1275860753
-s24862
-
-N/var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch.gch
-t1275862946
-s13026768
-
-N/var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch.gch
-t1275864815
-s13026768
-
-N/var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch.gch
-t1275861964
-s13026768
-
-NRentalManager-Info.plist
-c000000004C0C257C000000000000038D
-t1275864444
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies297558291#297558291#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTFixedTermLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297556026.178190
-e297556026.277169
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTFixedTermLease.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTFixedTermLease.m297556026#297556026#0(0"0(0#0#86"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTFixedTermLease.m4300911832#2240"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTFixedTermLease.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557616.027691
-e297557616.114052
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.m297557616#297557616#0(0"0(0#0#86"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.m4300911832#2298"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTFixedTermLease.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTFixedTermLease.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297556026.248017
-e297556026.319522
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTLease.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTLease.m297556026#297556026#0(0"0(0#0#77"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTLease.m4300911832#2222"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTLease.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557616.081482
-e297557616.153081
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.m297557616#297557616#0(0"0(0#0#77"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.m4300911832#2280"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTLease.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTLease.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTPeriodicLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297556026.277284
-e297556026.340100
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTPeriodicLease.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTPeriodicLease.m297556026#297556026#0(0"0(0#0#85"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTPeriodicLease.m4300911832#2238"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTPeriodicLease.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557616.114166
-e297557616.181902
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.m297557616#297557616#0(0"0(0#0#85"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.m4300911832#2296"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTPeriodicLease.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTPeriodicLease.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s297554764.958293
-e297554765.078321
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@130"Compile /Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m297554764#297554765#0(0"0(0#0#122"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m4300911832#2720"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap" -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap" "-F/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources" -include /var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch -c "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m" -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o"0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297556117.280992
-e297556117.471546
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m297556117#297556117#0(0"0(0#0#86"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m4300911832#2240"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/CTRentalProperty.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557615.918634
-e297557616.027577
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.m297557615#297557616#0(0"0(0#0#86"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.m4300911832#2298"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/CTRentalProperty.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/CTRentalProperty.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/ImportantRentalPropertyCell.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557866.474924
-e297557866.694859
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/ImportantRentalPropertyCell.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.m297557866#297557866#0(0"0(0#0#97"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.m4300911832#2320"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/ImportantRentalPropertyCell.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/ImportantRentalPropertyCell.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s297554764.956735
-e297554765.077453
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@138"Compile /Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m297554764#297554765#0(0"0(0#0#130"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m4300911832#2736"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap" -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap" "-F/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources" -include /var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch -c "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m" -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o"0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297555746.411701
-e297555746.633747
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m297555746#297555746#0(0"0(0#0#94"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m4300911832#2256"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalManagerAppDelegate.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557615.753386
-e297557615.918514
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.m297557615#297557615#0(0"0(0#0#94"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.m4300911832#2314"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalManagerAppDelegate.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManagerAppDelegate.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s297555633.989008
-e297555634.085827
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@132"Compile /Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m297555633#297555634#0(0"0(0#0#124"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m4300911832#2724"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap" -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap" "-F/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources" -include /var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch -c "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m" -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o"0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297556184.143000
-e297556184.395949
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m297556184#297556184#0(0"0(0#0#88"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m4300911832#2244"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RentalPropertyCell.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557730.341580
-e297557730.502994
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.m297557730#297557730#0(0"0(0#0#88"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.m4300911832#2302"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RentalPropertyCell.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalPropertyCell.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s297555140.344443
-e297555140.427200
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@132"Compile /Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m297555140#297555140#0(0"0(0#0#124"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m4300911832#2724"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap" -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap" "-F/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources" -include /var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch -c "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m" -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o"0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297556056.158056
-e297556056.279087
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m297556056#297556056#0(0"0(0#0#88"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m4300911832#2244"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/Classes/RootViewController.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297558291.713227
-e297558291.962083
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.m297558291#297558291#0(0"0(0#0#88"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.m4300911832#2302"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/Classes/RootViewController.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s297554764.955837
-e297554765.077221
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m297554764#297554765#0(0"0(0#0#102"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m4300911832#2688"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap" -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap" "-F/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources" -include /var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch -c "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m" -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297555746.410511
-e297555746.632139
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m297555746#297555746#0(0"0(0#0#66"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m4300911832#2208"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/main.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o0#
-
-CCompileC build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557615.752249
-e297557615.909633
-r1
-xCompileC
-xbuild/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/main.m297557615#297557615#0(0"0(0#0#66"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/main.m4300911832#2266"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -include /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/main.m -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/main.o0#
-
-CCompileXIB "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/MainWindow.xib"
-s297554763.550881
-e297554763.961055
-r1
-xCompileXIB
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib297554763#297554763#0(0"0(0#0#110"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/MainWindow.xib4300911832#725"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/MainWindow.nib" "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/MainWindow.xib"0#
-
-CCompileXIB "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RootViewController.xib"
-s297554763.551433
-e297554763.956050
-r1
-xCompileXIB
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib297554763#297554763#0(0"0(0#0#118"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RootViewController.xib4300911832#741"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RootViewController.nib" "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RootViewController.xib"0#
-
-CCompileXIB /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/MainWindow.xib
-r0
-
-CCompileXIB /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/RootViewController.xib
-r0
-
-CCompileXIB /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/MainWindow.xib
-r0
-
-CCompileXIB /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/RootViewController.xib
-r0
-
-CCopyPlistFile "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist" CityMappings.plist
-s297554763.554049
-e297554763.663688
-r1
-xCopyPlistFile
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist
-xCityMappings.plist
-lSLF07#2@23"Copy CityMappings.plist297554763#297554763#0(0"0(0#0#114"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/CityMappings.plist4300911832#579"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 CityMappings.plist --outdir "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app"0#
-
-CCopyPlistFile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist CityMappings.plist
-r0
-
-CCopyPlistFile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/CityMappings.plist CityMappings.plist
-r0
-
-CCpResource build/Debug-iphonesimulator/RentalManager.app/city.png city.png
-s297554763.551946
-e297554763.567647
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/RentalManager.app/city.png
-xcity.png
-lSLF07#2@13"Copy city.png297554763#297554763#0(0"0(0#0#104"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/city.png4300911832#697"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/city.png" "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app"0#
-
-CCpResource build/Debug-iphonesimulator/RentalManager.app/mountain.png mountain.png
-s297554763.552569
-e297554763.567901
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/RentalManager.app/mountain.png
-xmountain.png
-lSLF07#2@17"Copy mountain.png297554763#297554763#0(0"0(0#0#108"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/mountain.png4300911832#701"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/mountain.png" "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app"0#
-
-CCpResource build/Debug-iphonesimulator/RentalManager.app/sea.png sea.png
-s297554763.553252
-e297554763.568082
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/RentalManager.app/sea.png
-xsea.png
-lSLF07#2@12"Copy sea.png297554763#297554763#0(0"0(0#0#103"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/sea.png4300911832#696"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/sea.png" "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app"0#
-
-CGenerateDSYMFile "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM" "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager"
-s297555634.101228
-e297555634.113070
-r1
-xGenerateDSYMFile
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/RentalManager.app.dSYM build/Debug-iphonesimulator/RentalManager.app/RentalManager297555634#297555634#0(0"0(0#0#155"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager4300911832#640"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager" -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM"0#
-
-CGenerateDSYMFile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-s297556184.420170
-e297556184.437927
-r1
-xGenerateDSYMFile
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/RentalManager.app.dSYM build/Debug-iphonesimulator/RentalManager.app/RentalManager297556184#297556184#0(0"0(0#0#119"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager4300911832#464"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM0#
-
-CGenerateDSYMFile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-s297558291.987694
-e297558292.006791
-r1
-xGenerateDSYMFile
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/RentalManager.app.dSYM build/Debug-iphonesimulator/RentalManager.app/RentalManager297558291#297558292#0(0"0(0#0#119"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager4300911832#522"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/usr/bin/dsymutil /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app.dSYM0#
-
-CLd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager" normal i386
-s297555634.085924
-e297555634.101152
-r1
-xLd
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-xnormal
-xi386
-lSLF07#2@160"Link /Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager297555634#297555634#0(0"0(0#0#0"4300911832#1249"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk "-L/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" "-F/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" -filelist "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManager.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager"0#
-
-CLd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager normal i386
-s297556184.396043
-e297556184.420053
-r1
-xLd
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-xnormal
-xi386
-lSLF07#2@124"Link /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager297556184#297556184#0(0"0(0#0#0"4300911832#997"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -filelist /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManager.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager0#
-
-CLd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager normal i386
-s297558291.962188
-e297558291.987554
-r1
-xLd
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager
-xnormal
-xi386
-lSLF07#2@124"Link /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager297558291#297558291#0(0"0(0#0#0"4300911832#1055"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -filelist /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/Objects-normal/i386/RentalManager.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/RentalManager0#
-
-CProcessInfoPlistFile "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist" RentalManager-Info.plist
-s297554763.547078
-e297554763.550816
-r1
-xProcessInfoPlistFile
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist
-xRentalManager-Info.plist
-lSLF07#2@32"Process RentalManager-Info.plist297554763#297554763#0(0"0(0#0#120"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RentalManager-Info.plist4300911832#736"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility RentalManager-Info.plist -genpkginfo "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist"0#
-
-CProcessInfoPlistFile /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist RentalManager-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app/Info.plist RentalManager-Info.plist
-r0
-
-CProcessPCH /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch.gch RentalManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s297555744.328777
-e297555746.410295
-r1
-xProcessPCH
-x/var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch.gch
-xRentalManager_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile RentalManager_Prefix.pch297555744#297555746#0(0"0(0#0#84"/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/RentalManager_Prefix.pch4300911832#2073"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/RentalManager_Prefix.pch -o /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-cupsenpjhzihijaaduyjxvfdfoxv/RentalManager_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch.gch RentalManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s297557614.839323
-e297557615.752117
-r1
-xProcessPCH
-x/var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch.gch
-xRentalManager_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile RentalManager_Prefix.pch297557614#297557615#0(0"0(0#0#84"/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/RentalManager_Prefix.pch7300950118807987200#2131"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap -iquote /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap -F/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/include -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386 -I/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/RentalManager_Prefix.pch -o /var/folders/MI/MIOiT-PyEkSL6Id7JYuyA++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-dhjbzcrlzqmwwlabiceqmbpbdkkm/RentalManager_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch.gch RentalManager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s297554763.961179
-e297554764.955746
-r1
-xProcessPCH
-x/var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch.gch
-xRentalManager_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile RentalManager_Prefix.pch297554763#297554764#0(0"0(0#0#120"/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RentalManager_Prefix.pch4300911832#2515"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-generated-files.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-own-target-headers.hmap" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-all-target-headers.hmap" -iquote "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/RentalManager-project-headers.hmap" "-F/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/include" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources/i386" "-I/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/RentalManager.build/Debug-iphonesimulator/RentalManager.build/DerivedSources" -c "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/RentalManager_Prefix.pch" -o /var/folders/r6/r62vsShqEDqYpFy4J16UCE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RentalManager_Prefix-fnieciuqldvlnefgmcjyjeqniklc/RentalManager_Prefix.pch.gch0#
-
-CTouch "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app"
-s297555634.113144
-e297555634.115071
-r1
-xTouch
-x/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-lSLF07#2@147"Touch /Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app297555634#297555634#0(0"0(0#0#0"4300911832#464"    cd "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/cruffenach/Development/Manning Publishing/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app"0#
-
-CTouch /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-s297556184.438030
-e297556184.440769
-r1
-xTouch
-x/Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-lSLF07#2@111"Touch /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app297556184#297556184#0(0"0(0#0#0"4300911832#326"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/chris/iPhone-Book-CodeSamples/Chapter6/RentalManager/build/Debug-iphonesimulator/RentalManager.app0#
-
-CTouch /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-s297558292.006879
-e297558292.010358
-r1
-xTouch
-x/Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app
-lSLF07#2@111"Touch /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app297558292#297558292#0(0"0(0#0#0"4300911832#384"    cd /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/Current/bin:/bin:/sbin:/usr/bin:/usr/sbin"    /usr/bin/touch -c /Users/chris/iPhone-Book-CodeSamples/Chapter7/RentalManager/build/Debug-iphonesimulator/RentalManager.app0#
-
